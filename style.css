@@ -4,7 +4,7 @@
 
 #toplogo {
     margin-right: auto;
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
 }
 
@@ -88,6 +88,47 @@
 .show {
     display: block;
 }
+
+/* SoMe Content */
+
+#some {
+    /*display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+#facebook {
+    max-width: 10%;
+    padding: 10px;
+}
+
+#instagram {
+    max-width: 10%;
+    padding: 10px;
+}
+
+#kontakt {
+    max-width: 10%;
+    padding: 10px;
+}
+
+#video {
+    width: 100%;
+    position: relative;
+}
+
+#forsidecontent {
+    position: absolute;
+}
+
+
+/* SoMe Content slut */
 
 /*==========BURGER MENU SLUT==========*/
 

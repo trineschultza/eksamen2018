@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", hentJson);
+/*document.addEventListener("DOMContentLoaded", hentJson);
 
 async function hentJson() {
 
@@ -15,4 +15,4 @@ async function hentJson() {
     document.querySelector("[data-varkstedtekst]").innerHTML = kobhosscharling.acf.varkstedtekst;
     document.querySelector("[data-meretekst]").innerHTML = kobhosscharling.acf.meretekst;
 
-}
+}*/

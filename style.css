@@ -1,18 +1,6 @@
-/*==========BURGER MENU START==========*/
-
-/* TAGET FRA TEMA 7 (FOOD8), GRUPPE A4 */
-
-#toplogo {
-    margin-right: auto;
-    max-width: 20%;
-    height: auto;
-}
-
-#menu {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    background-color: white;
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .bar1,
@@ -23,6 +11,10 @@
     background-color: #5c6671;
     margin: 6px 0;
     transition: 0.5s;
+}
+
+.navbar1 {
+    display: none;
 }
 
 .change .bar1 {
@@ -91,18 +83,6 @@
 
 /* SoMe Content */
 
-#some {
-    /*display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-content: center;
-    align-items: center;*/
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-}
-
 #facebook {
     max-width: 10%;
     padding: 10px;
@@ -118,14 +98,7 @@
     padding: 10px;
 }
 
-#video {
-    width: 100%;
-    position: relative;
-}
 
-#forsidecontent {
-    position: absolute;
-}
 
 
 /* SoMe Content slut */
@@ -173,26 +146,45 @@
     .dropbtn {
         display: none;
     }
-
-    .dropdown-content {
-        display: inline-block;
+    #some {
+        display: grid;
         position: absolute;
-        background-color: none;
-        min-width: 460px;
-        overflow: auto;
-        box-shadow: none;
-        right: 0;
-        z-index: 300;
+        bottom: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 850px;
+        grid-gap: 10px;
+    }
+    #facebook {
+        max-width: 20%;
     }
 
-    .dropdown-content a {
-        background-color: none;
-        color: black;
-        padding: 10px 16px;
-        text-decoration: none;
-        display: inline-block;
+    #instagram {
+        max-width: 20%;
+    }
+
+    #kontakt {
+        max-width: 20%;
+    }
+
+    .navbar1 {
+        display: list-item;
+        font-size: 1em;
         text-align: right;
-        font-size: 14px;
+        padding: 10px;
+        background-color: aliceblue;
+    }
+    .navbar1 a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        border-right: solid 1.2px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .navbar1 a:hover {
+        cursor: pointer;
+        background-color: antiquewhite;
     }
 }
 

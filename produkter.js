@@ -8,6 +8,14 @@ async function hentJson() {
     let produkter = await jsonObjekt.json();
 
     document.querySelector("[data-snedkerimg]").src = produkter.acf.snedkerimg.url;
+    document.querySelector("[data-snedkeroverskrift]").innerHTML = produkter.acf.snedkeroverskrift;
 
+    document.querySelector("[data-badeværelseimg]").src = produkter.acf.badeværelseimg.url;
+    document.querySelector("[data-badeværelseoverskrift]").innerHTML = produkter.acf.badeværelseoverskrift;
 
+    document.querySelector("[data-plankebordeimg]").src = produkter.acf.plankebordeimg.url;
+    document.querySelector("[data-plankebordeoverskrift]").innerHTML = produkter.acf.plankebordeoverskrift;
+
+    document.querySelector("[data-andetimg]").src = produkter.acf.andetimg.url;
+    document.querySelector("[data-andetoverskrift]").innerHTML = produkter.acf.andetoverskrift;
 }

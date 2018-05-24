@@ -18,6 +18,10 @@ body {
     display: none;
 }
 
+.navbarb {
+    display: none;
+}
+
 .nav1 {
     display: none;
 }
@@ -200,6 +204,18 @@ body {
 }
 
 
+#badevarlse h2 {
+    text-align: center;
+}
+
+#badevarlse p {
+    padding: 10px;
+
+}
+
+
+
+
 /*==========BURGER MENU SLUT==========*/
 
 /* MEDIAQUERIES START */
@@ -315,6 +331,15 @@ body {
         margin-bottom: 3vw;
 
     }
+
+    img {
+        width: 80%;
+    }
+    p {
+        margin-left: 60px;
+        margin-right: 60px;
+
+    }
     /*******PRODUKTER***********/
     #kobhosscharlinginfo {
         display: flex;
@@ -338,14 +363,6 @@ body {
 
 
     /******SNEDKER*************/
-    #snedker img {
-        width: 80%;
-    }
-    #snedker p {
-        margin-left: 60px;
-        margin-right: 60px;
-
-    }
     #lillemenu {
         text-align: center;
         font-size: 1.4em;
@@ -388,9 +405,47 @@ body {
         cursor: pointer;
     }
 
+    /*****BADeVÆRELSE********/
+    #badevarlse h2 {
+        margin-top: 120px;
+    }
 
+    .navbarb {
+        position: fixed;
+        width: 100%;
+        display: list-item;
+        font-size: 1em;
+        text-align: right;
+        padding: 25px;
+        background-color: rgba(27, 141, 235, 0.19);
+        box-sizing: border-box;
+        z-index: 10;
+    }
+    .navbarb a {
+        text-decoration: none;
+        color: black;
+        padding: 19px;
+        border-right: solid 1.2px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
 
+    .navbarb a:hover {
+        cursor: pointer;
+        background-color: antiquewhite;
+    }
+    .navbarb {
+        margin-top: -120px;
+    }
+    #badevarlse #badimg1 {
+        width: 50%;
+    }
 
+    #badgrid {
+        display: grid;
+        bottom: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
 
-
+    }
     /* MEDIAQUERIES SLUT */

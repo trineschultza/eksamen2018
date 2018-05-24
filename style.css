@@ -103,6 +103,7 @@ body {
     max-width: 10%;
     padding: 10px;
 }
+
 /****** PRODUKTER****************/
 
 #produkter {
@@ -187,6 +188,17 @@ body {
 #kollektion {
     padding-top: 10px;
 }
+
+
+/**************BADeVÆRELSE*********/
+
+#badevarlse img {
+    width: 90%;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
 
 /*==========BURGER MENU SLUT==========*/
 

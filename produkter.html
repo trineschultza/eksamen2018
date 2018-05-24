@@ -6,11 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eksamen 2018</title>
     <link rel="stylesheet" href="style.css">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
 
     <div class="navbar1">
+        <a href="index.html">   <img id="toplogo" src="img/logo.jpg"></a>
+
         <a href="index.html"> Forside</a>
         <a href="produkter.html"> Produkter </a>
         <a href="kobhoscharling.html">Køb hos Scharling</a>
@@ -19,21 +31,73 @@
 
     </div>
 
+    <div class="navbar">
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="index.html">Forside</a>
+                <a href="produkter.html">Produkter</a>
+                <a href="kobhoscharling.html">Køb hos Scharling</a>
+                <a href="omos.html">Om os</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+        </div>
+    </div>
+
     <section id="modtager">
         <article>
-            <div id="kobhosscharlinginfo">
+            <div id="produkter">
+                <h2 id="h2"> Vores produktudvalg</h2>
 
-                <img data-snedkerimg src="">
-                <h2 data-snedkeroverskrift></h2>
+                <div id="kobhosscharlinginfo">
+                    <div class="container">
+                        <a href="snedkerkokken.html">   <img data-snedkerimg src="" class="image">
+                        <div class="middle">
+                            <div class="text">Snedkerkøkkener</div>
+                        </div>
+                        </a>
+                    </div>
 
-                <img data-badeværelseimg src="">
-                <h2 data-badeværelseoverskrift></h2>
+                    <div class="container">
+                        <a href="badvarelse.html">  <img data-badeværelseimg src="" class="image">
+                        <div class="middle">
+                            <div class="text">Badeværelser</div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
 
-                <img data-plankebordeimg src="">
-                <h2 data-plankebordeoverskrift></h2>
 
-                <img data-andetimg src="">
-                <h2 data-andetoverskrift></h2>
+                <div id="kobhosscharlinginfo">
+                    <div class="container">
+                        <a href="planke.html"> <img data-plankebordeimg src="" class="image">
+                        <div class="middle">
+                            <div class="text">Plankeborde</div>
+                        </div>
+                        </a>
+                    </div>
+
+
+                    <div class="container">
+                        <a href="dinsnedker.html">
+                        <img data-andetimg src="" class="image">
+                        <div class="middle">
+                            <div class="text">Din snedkerløsning</div>
+                        </div>
+                     </a>
+                    </div>
+                </div>
+
+
+
+
+
+
+
 
 
             </div>
@@ -41,6 +105,8 @@
     </section>
 
     <script src="produkter.js"></script>
+    <script src="menu.js"></script>
+
 
 </body>
 

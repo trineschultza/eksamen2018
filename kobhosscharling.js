@@ -2,8 +2,6 @@ document.addEventListener("DOMContentLoaded", hentJson);
 
 async function hentJson() {
 
-    var urlParams = new URLSearchParams(window.location.search);
-    let id = urlParams.get("kobhosscharling");
     let jsonObjekt = await fetch("http://meifriis.com/kea/scharlingwoodwp/wp-json/wp/v2/kobhosscharling/39");
     let kobhosscharling = await jsonObjekt.json();
 

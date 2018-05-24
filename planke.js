@@ -2,8 +2,6 @@ document.addEventListener("DOMContentLoaded", hentJson);
 
 async function hentJson() {
 
-    var urlParams = new URLSearchParams(window.location.search);
-    let id = urlParams.get("planke");
     let jsonObjekt = await fetch("http://meifriis.com/kea/scharlingwoodwp/wp-json/wp/v2/planke/31");
     let planke = await jsonObjekt.json();
 
@@ -11,7 +9,7 @@ async function hentJson() {
     document.querySelector("[data-img]").src = planke.acf.img.url;
 
     document.querySelector("[data-overskrift2]").innerHTML = planke.acf.overskrift2;
-document.querySelector("[data-tekst2]").innerHTML = planke.acf.tekst2;
+    document.querySelector("[data-tekst2]").innerHTML = planke.acf.tekst2;
     document.querySelector("[data-img2]").src = planke.acf.img2.url;
 
     document.querySelector("[data-overskrift3]").innerHTML = planke.acf.overskrift3;

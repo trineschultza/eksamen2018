@@ -1,11 +1,10 @@
 $(document).ready(function () {
     $(".nav_snedkerkokken").click(function () {
-        $("#snedkerkokken").slideUp("slow");
+        $("#snedkerkokken").slideDown("slow");
         $("#nytkokken").slideDown("slow");
-        $("#pris").slideUp("slow");
-
+        $("#pris").slideDown("slow");
         $("html, body").animate({
-            scrollTop: 750
+            scrollTop: 610
         }, 900);
 
 
@@ -18,7 +17,7 @@ $(document).ready(function () {
         $("#pris").slideUp("slow");
 
         $("html, body").animate({
-            scrollTop: 750
+            scrollTop: 610
         }, 900);
 
 
@@ -27,13 +26,13 @@ $(document).ready(function () {
 
     $(".nav_pris").click(function () {
         $("#nytkokken").slideUp("slow");
-        $("#cv").slideUp("slow");
+        $("#snedkerkokken").slideUp("slow");
 
-        $("#snedkerkokken").slideDown("pris");
+        $("#pris").slideDown("pris");
 
 
         $("html, body").animate({
-            scrollTop: 730
+            scrollTop: 610
         }, 900);
 
     });
@@ -57,4 +56,27 @@ $(document).ready(function () {
         return false;
     });
 
+
+
+
 });
+
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+    scrollFunction()
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}

@@ -8,7 +8,6 @@ async function hentJson() {
     document.querySelector("[data-overskrift]").innerHTML = snedkerkokken.acf.overskrift;
     document.querySelector("[data-img]").src = snedkerkokken.acf.img.url;
 
-    document.querySelector("[data-overskrift2]").innerHTML = snedkerkokken.acf.overskrift2;
     document.querySelector("[data-overskrift3]").innerHTML = snedkerkokken.acf.overskrift3;
     document.querySelector("[data-tekst3]").innerHTML = snedkerkokken.acf.tekst3;
 

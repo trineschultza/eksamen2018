@@ -2,8 +2,6 @@ document.addEventListener("DOMContentLoaded", hentJson);
 
 async function hentJson() {
 
-    var urlParams = new URLSearchParams(window.location.search);
-    let id = urlParams.get("omos");
     let jsonObjekt = await fetch("http://meifriis.com/kea/scharlingwoodwp/wp-json/wp/v2/omos/42/");
     let omos = await jsonObjekt.json();
 

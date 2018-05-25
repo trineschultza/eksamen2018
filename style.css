@@ -207,6 +207,9 @@ body {
     margin: 0 auto;
 }
 
+#badevarlse {
+    padding: 10px;
+}
 
 #badevarlse h2 {
     text-align: center;

@@ -94,6 +94,56 @@ body {
     display: block;
 }
 
+.produkter-dropbtn {
+    background-color: rgba(255, 255, 255, 0.19);
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 19px;
+    border-right: solid 1.2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Montserrat;
+}
+
+.produkter-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.produkter-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 110px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px #3d3d3d;
+    right: 0;
+    z-index: 300;
+}
+
+.produkter-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Montserrat;
+}
+
+.produkter-dropdown-content a:hover {
+    background-color: #ddd
+}
+
+.produkter-dropdown:hover .produkter-dropdown-content {
+    display: block;
+}
+
+.produkter--dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
 
 /**********************************FORSIDE*******************/
 

@@ -94,6 +94,9 @@ body {
     display: block;
 }
 
+h2 {
+    text-align: center;
+}
 
 /**********************************FORSIDE*******************/
 
@@ -122,13 +125,6 @@ body {
     width: 100%;
 }
 
-#produkter h2 {
-    text-align: center;
-}
-
-#h2 {
-    text-align: center;
-}
 
 .container {
     position: relative;
@@ -185,9 +181,7 @@ body {
     padding: 10px;
 }
 
-#snedker h2 {
-    text-align: center;
-}
+
 
 #snedker p {
     padding: 10px;
@@ -211,10 +205,6 @@ body {
     padding: 10px;
 }
 
-#badevarlse h2 {
-    text-align: center;
-}
-
 #badevarlse p {
     padding: 10px;
 
@@ -234,9 +224,26 @@ body {
     text-align: center;
 }
 
+#planke {
+    padding: 10px;
+}
+
 #planke p {
     padding: 10px;
 
+}
+
+
+/**********DIN SNEDKER*********/
+
+#dinsnedker {
+    padding: 10px;
+}
+
+#dinsnedker img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
 }
 
 /*==========BURGER MENU SLUT==========*/
@@ -450,14 +457,23 @@ body {
 
     }
 
-    #badevarlse h2 {
-        margin-top:
-    }
-
 
     /*******PLANKe*********/
     #planke img {
         display: block;
         margin: 0 auto;
     }
+
+    /********DIN SNEDKER***********/
+    #dinsnedker {}
+
+
+
+
+
+
+
+
+
+
     /* MEDIAQUERIES SLUT */

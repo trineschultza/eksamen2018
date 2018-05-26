@@ -240,7 +240,7 @@ h2 {
 }
 
 #lillemenu {
-    display: none;
+    visibility: hidden;
 }
 
 #kollektion {
@@ -425,6 +425,7 @@ h2 {
         width: 4.2vw;
         height: auto;
     }
+
     .some_splash .kontakt {
         position: absolute;
         bottom: 10px;
@@ -529,6 +530,8 @@ h2 {
 
     /******SNEDKER*************/
     #lillemenu {
+        visibility: inherit;
+        background-image: url(img/strukturbaggrund.png);
         text-align: center;
         font-size: 1.4em;
         padding: 10px;

@@ -10,9 +10,7 @@ async function hentJson() {
     document.querySelector("[data-tekst]").innerHTML = kobhosscharling.acf.tekst;
 
     document.querySelector("[data-overskrift2]").innerHTML = kobhosscharling.acf.overskrift2;
-    document.querySelector("[data-tekst2]").innerHTML = kobhosscharling.acf.tekst2;
-    document.querySelector("[data-img3]").src = kobhosscharling.acf.img3.url;
-    document.querySelector("[data-img4]").src = kobhosscharling.acf.img4.url;
+    document.querySelector("[data-teskt2]").innerHTML = kobhosscharling.acf.teskt2;
 
     document.querySelector("[data-overskrift6]").innerHTML = kobhosscharling.acf.overskrift6;
     document.querySelector("[data-tekst6]").innerHTML = kobhosscharling.acf.tekst6;
@@ -27,9 +25,8 @@ async function hentJson() {
     document.querySelector("[data-tekst11]").innerHTML = kobhosscharling.acf.tekst11;
     document.querySelector("[data-overskrift12]").innerHTML = kobhosscharling.acf.overskrift12;
     document.querySelector("[data-tekst12]").innerHTML = kobhosscharling.acf.tekst12;
-    document.querySelector("[data-img12]").src = kobhosscharling.acf.img12.url;
-
     document.querySelector("[data-overskrift13]").innerHTML = kobhosscharling.acf.overskrift13;
     document.querySelector("[data-tekst13]").innerHTML = kobhosscharling.acf.tekst13;
-    document.querySelector("[data-img13]").src = kobhosscharling.acf.img13.url;
+    document.querySelector("[data-tekst14]").innerHTML = kobhosscharling.acf.tekst14;
+
 }

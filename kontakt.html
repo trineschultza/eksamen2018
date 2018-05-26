@@ -75,15 +75,61 @@
 
         </div>
         <p data-tekst></p>
+
         <h2 data-overskrift2></h2>
-        <p data-varkstedtekst></p>
+
+
+
+        <div id="adresse">
+            <div id="varksted">
+                <p data-varkstedtekst></p>
+            </div>
+            <div id="map"></div>
+        </div>
+
+
         <p data-meretekst></p>
 
 
     </div>
 
+
+    <script>
+        function initMap() {
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15
+            });
+
+            geocodeAddress();
+
+            function geocodeAddress() {
+                let geocoder = new google.maps.Geocoder();
+
+                let minAdresse = "Literbuen 10 2740 Skovlunde";
+                geocoder.geocode({
+                        'address': minAdresse
+                    },
+
+                    function(results, status) {
+                        if (status === 'OK') {
+                            map.setCenter(results[0].geometry.location);
+                            var marker = new google.maps.Marker({
+                                map: map,
+                                position: results[0].geometry.location
+                            });
+                        } else {
+                            alert('Geocode was not successful for the following reason: ' + status);
+                        }
+                    });
+            }
+        }
+
+    </script>
     <script src="kontakt.js"></script>
     <script src="menu.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDydYXX-OkiE6Gcwi8nyVitoBYZIZu4miM&callback=initMap" async defer></script>
 </body>
 
 </html>

@@ -334,8 +334,21 @@ h2 {
     padding: 10px;
 }
 
+#kontaktinfo p {
+    margin-top: 0px;
+}
+
 #kontaktinfo img {
     width: 100%;
+    margin-bottom: 30px;
+
+
+}
+
+#kontaktinfo #kontaktimg {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
 }
 
 /* MEDIAQUERIES START */
@@ -596,4 +609,17 @@ h2 {
         display: block;
         margin: 0 auto;
     }
+
+    /******KONTAKT*********/
+    #kontaktinformationer {
+        display: flex;
+
+    }
+
+    #koninf {
+        flex-grow: 1;
+        width: 10%;
+    }
+
+
     /* MEDIAQUERIES SLUT */

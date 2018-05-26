@@ -534,4 +534,8 @@ h2 {
         display: block;
         margin: 0 auto;
     }
+
+    #planke {
+        padding: 10px;
+    }
     /* MEDIAQUERIES SLUT */

@@ -528,7 +528,7 @@ h2 {
     }
 
 
-    /******SNEDKER*************/
+    /******SNEDKERKØKKEN*************/
     #lillemenu {
         visibility: inherit;
         background-image: url(img/strukturbaggrund.png);
@@ -554,7 +554,19 @@ h2 {
     }
 
 
+    #pris #kokken {
+        width: 50%;
+    }
 
+    #pris img {
+        width: 40%;
+    }
+    #kokkenflex {
+        display: grid;
+        bottom: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
     /*****BADeVÆRELSE********/
     #badevarlse #badimg1 {
         width: 35%;

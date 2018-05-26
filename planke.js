@@ -26,6 +26,4 @@ async function hentJson() {
 
     document.querySelector("[data-overskrift6]").innerHTML = planke.acf.overskrift6;
     document.querySelector("[data-tekst6").innerHTML = planke.acf.tekst6;
-    document.querySelector("[data-tekst7").innerHTML = planke.acf.tekst7;
-
 }

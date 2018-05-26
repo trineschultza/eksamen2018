@@ -638,10 +638,22 @@ h2 {
         width: 60vw;
         height: 30vw;
         flex-grow: 1;
-        margin: 30px;
+        margin: 80px;
     }
     #varksted {
         flex-grow: 1;
     }
 
+    #kontaktdesign {
+        display: flex;
+    }
+    #design {
+        flex-grow: 1;
+        width: 10%;
+    }
+    #design img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
     /* MEDIAQUERIES SLUT */

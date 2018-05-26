@@ -328,6 +328,15 @@ h2 {
     width: 100%;
 }
 
+/******* KONTAKT***********/
+
+#kontaktinfo {
+    padding: 10px;
+}
+
+#kontaktinfo img {
+    width: 100%;
+}
 
 /* MEDIAQUERIES START */
 
@@ -573,4 +582,19 @@ h2 {
         width: 30%;
     }
 
+
+    /*********** OM OS ***********/
+    #medarbejder {
+        display: flex;
+    }
+    #medarbejder img {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+    #omos img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
     /* MEDIAQUERIES SLUT */

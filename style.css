@@ -94,7 +94,9 @@ body {
     display: block;
 }
 
-
+p {
+    padding: 10px;
+}
 
 h2 {
     text-align: center;
@@ -196,13 +198,6 @@ h2 {
     width: 100%;
 }
 
-#produkter h2 {
-    text-align: center;
-}
-
-#h2 {
-    text-align: center;
-}
 
 .container {
     position: relative;
@@ -259,12 +254,8 @@ h2 {
     padding: 10px;
 }
 
-#snedker h2 {
-    text-align: center;
-}
-
-#snedker p {
-    padding: 10px;
+#lillemenu {
+    display: none;
 }
 
 #kollektion {
@@ -285,14 +276,7 @@ h2 {
     padding: 10px;
 }
 
-#badevarlse h2 {
-    text-align: center;
-}
 
-#badevarlse p {
-    padding: 10px;
-
-}
 
 /******* plankeborde************/
 
@@ -304,14 +288,24 @@ h2 {
 }
 
 
-#planke h2 {
-    text-align: center;
-}
-
-#planke p {
+#planke {
     padding: 10px;
-
 }
+
+
+/******DIN SNEDKER**********/
+
+#dinsnedker img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#dinsnedker {
+    padding: 10px;
+}
+
 
 /*==========BURGER MENU SLUT==========*/
 
@@ -535,7 +529,5 @@ h2 {
         margin: 0 auto;
     }
 
-    #planke {
-        padding: 10px;
-    }
+
     /* MEDIAQUERIES SLUT */

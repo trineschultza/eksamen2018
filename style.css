@@ -318,12 +318,18 @@ h2 {
 
 }
 
+/*****OM OS**************/
 
-/*==========BURGER MENU SLUT==========*/
+#omos {
+    padding: 10px;
+}
+
+#omos img {
+    width: 100%;
+}
+
 
 /* MEDIAQUERIES START */
-
-/* https://stackoverflow.com/questions/13637106/what-are-the-best-width-ranges-for-media-queries */
 
 /* Smartphones (portrait and landscape) ----------- */
 

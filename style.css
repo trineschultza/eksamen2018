@@ -292,6 +292,33 @@ h2 {
 }
 
 
+/****KØB HOS**************/
+
+#kob {
+    padding: 10px;
+
+}
+
+#kob img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.proces {
+    width: 100%;
+}
+
+.proces iframe {
+    display: block;
+    margin: 0 auto;
+    height: 58.2vw;
+    width: 100%;
+
+}
+
+
 /*==========BURGER MENU SLUT==========*/
 
 /* MEDIAQUERIES START */
@@ -503,16 +530,41 @@ h2 {
 
     }
 
-    #badevarlse h2 {
-        margin-top:
+    /********PLANKEBORD***********/
+    /******** DIN SNEDKER*****/
+    #dinsnedker img {
+        width: 80%;
+    }
+    #trae {
+        display: flex;
     }
 
 
-    /*******PLANKe*********/
-    #planke img {
+
+
+    /********KØB HOS SCHARLING ****/
+    #kob img {
+        width: 80%;
+    }
+
+    #proces iframe {
         display: block;
         margin: 0 auto;
+        width: 100%;
+
+    }
+    .proces {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 15px;
     }
 
+    .proces iframe {
+        border: 0;
+    }
+    #kob img #leveringimg {
+        width: 30%;
+    }
 
     /* MEDIAQUERIES SLUT */

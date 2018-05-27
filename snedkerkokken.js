@@ -5,7 +5,6 @@ async function hentJson() {
     let jsonObjekt = await fetch("http://meifriis.com/kea/scharlingwoodwp/wp-json/wp/v2/snedkerkokken/37");
     let snedkerkokken = await jsonObjekt.json();
 
-    document.querySelector("[data-overskrift]").innerHTML = snedkerkokken.acf.overskrift;
     document.querySelector("[data-img]").src = snedkerkokken.acf.img.url;
 
     document.querySelector("[data-overskrift3]").innerHTML = snedkerkokken.acf.overskrift3;

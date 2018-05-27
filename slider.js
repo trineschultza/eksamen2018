@@ -4,7 +4,7 @@ $(document).ready(function () {
         $("#nytkokken").slideDown("slow");
         $("#pris").slideDown("slow");
         $("html, body").animate({
-            scrollTop: 610
+            scrollTop: 450
         }, 900);
 
 
@@ -17,7 +17,7 @@ $(document).ready(function () {
         $("#pris").slideUp("slow");
 
         $("html, body").animate({
-            scrollTop: 610
+            scrollTop: 450
         }, 900);
 
 
@@ -32,20 +32,11 @@ $(document).ready(function () {
 
 
         $("html, body").animate({
-            scrollTop: 610
+            scrollTop: 450
         }, 900);
 
     });
 
-
-    $(".nav_forside").click(function () {
-        $("#cv").show();
-        $("#portfoliomappe").show();
-        $("html, body").animate({
-            scrollTop: 10
-        }, 900);
-
-    });
 
 
 

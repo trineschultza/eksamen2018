@@ -575,6 +575,28 @@ h2 {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
     }
+
+    #snedkerflex {
+        display: grid;
+        bottom: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px
+    }
+
+    #snedkerfleximg {
+        width: 100%;
+        margin-top: 50px;
+
+    }
+    #snedkerflexp {
+        margin-top: -125px;
+    }
+    #overskrift {
+        margin-top: -10px;
+    }
+    #overskrift1 {
+        margin-top: 10px;
+    }
     /*****BADeVÆRELSE********/
     #badevarlse #badimg1 {
         width: 35%;
@@ -582,7 +604,23 @@ h2 {
         margin: 0 auto;
         padding: 10px;
     }
+    #badvarelsegrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+    #badevarlse #overskriftbad {
+        margin-top: 90px;
+    }
+    #badvarelsegrid img {
+        margin-top: 40px;
+    }
+    #badp {
+        margin-top: -38px;
+    }
+    #badevarlse h2 {
+        margin-top: -30px;
+    }
     #badevarlse #badimg2 {
         width: 70%;
         display: block;

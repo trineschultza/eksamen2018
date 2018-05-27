@@ -12,7 +12,12 @@ async function hentJson() {
     document.querySelector("[data-tekst]").innerHTML = kontakt.acf.tekst;
     document.querySelector("[data-overskrift2]").innerHTML = kontakt.acf.overskrift2;
     document.querySelector("[data-varkstedtekst]").innerHTML = kontakt.acf.varkstedtekst;
+
     document.querySelector("[data-meretekst]").innerHTML = kontakt.acf.meretekst;
+    document.querySelector("[data-img2]").src = kontakt.acf.img2.url;
+    document.querySelector("[data-overskrift3]").innerHTML = kontakt.acf.overskrift3;
+
+
 
 
 }

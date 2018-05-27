@@ -124,12 +124,11 @@ h2 {
 .produkter-dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 110px;
+    background-image: url(img/strukturbaggrund.png);
+    min-width: 190px;
     overflow: auto;
-    box-shadow: 0px 8px 16px 0px #3d3d3d;
     right: 0;
-    z-index: 300;
+    z-index: 10;
 }
 
 .produkter-dropdown-content a {
@@ -137,7 +136,6 @@ h2 {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    font-family: Montserrat;
 }
 
 .produkter-dropdown-content a:hover {
@@ -155,6 +153,7 @@ h2 {
 #produkterknap {
     padding: 0px;
 }
+
 
 /**********************************FORSIDE*******************/
 
@@ -240,7 +239,7 @@ h2 {
 }
 
 #lillemenu {
-    display: none;
+    visibility: hidden;
 }
 
 #kollektion {
@@ -418,29 +417,34 @@ h2 {
     .up:hover {
         cursor: pointer;
     }
-    #some {
-        display: grid;
+
+    .some_splash .instagram,
+    .some_splash .facebook,
+    .some_splash .kontakt {
+        width: 4.2vw;
+        height: auto;
+    }
+
+    .some_splash .kontakt {
         position: absolute;
         bottom: 10px;
-        grid-template-columns: repeat(2, 1fr);
-        margin-left: 850px;
-        grid-gap: 10px;
+        right: 2vw;
+        color: white;
+    }
+    .some_splash .instagram {
+        position: absolute;
+        right: 8vw;
+        bottom: 10px;
+        color: white;
     }
 
-    #some a {
-        text-decoration: none;
-    }
-    #facebook {
-        max-width: 18%;
-    }
-
-    #instagram {
-        max-width: 20%;
+    .some_splash .facebook {
+        position: absolute;
+        bottom: 10px;
+        right: 14vw;
+        color: white;
     }
 
-    #kontakt {
-        max-width: 20%;
-    }
     #toplogo {
         width: 4.5%;
         position: absolute;
@@ -453,6 +457,9 @@ h2 {
     }
 
     .navbar1 {
+        background-image: url(img/strukturbaggrund.png);
+        opacity: 0.8;
+
         position: fixed;
         width: 100%;
         display: list-item;
@@ -520,8 +527,10 @@ h2 {
     }
 
 
-    /******SNEDKER*************/
+    /******SNEDKERKØKKEN*************/
     #lillemenu {
+        visibility: inherit;
+        background-image: url(img/strukturbaggrund.png);
         text-align: center;
         font-size: 1.4em;
         padding: 10px;
@@ -544,7 +553,19 @@ h2 {
     }
 
 
+    #pris #kokken {
+        width: 50%;
+    }
 
+    #pris img {
+        width: 40%;
+    }
+    #kokkenflex {
+        display: grid;
+        bottom: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
     /*****BADeVÆRELSE********/
     #badevarlse #badimg1 {
         width: 35%;
@@ -609,6 +630,9 @@ h2 {
     #medarbejder {
         display: flex;
     }
+    #medarbejder h2 {
+        margin-top: 20px;
+    }
     #medarbejder img {
         width: 60%;
         display: block;
@@ -619,13 +643,22 @@ h2 {
         display: block;
         margin: 0 auto;
     }
+    #overskriftomsos {
+        margin-top: 50px;
+    }
+
+    #omos p {
+        margin-top: -20px;
+    }
 
     /******KONTAKT*********/
     #kontaktinformationer {
         display: flex;
 
     }
-
+    #overskrift2 {
+        margin-top: -20px;
+    }
     #koninf {
         flex-grow: 1;
         width: 10%;
@@ -638,10 +671,25 @@ h2 {
         width: 60vw;
         height: 30vw;
         flex-grow: 1;
-        margin: 30px;
+        margin: 80px;
     }
     #varksted {
         flex-grow: 1;
     }
 
+    #kontaktdesign {
+        display: flex;
+    }
+    #design {
+        flex-grow: 1;
+        width: 10%;
+    }
+    #design img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    #overskrift3 {
+        margin: 90px;
+    }
     /* MEDIAQUERIES SLUT */

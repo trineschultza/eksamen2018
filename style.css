@@ -630,6 +630,9 @@ h2 {
     #medarbejder {
         display: flex;
     }
+    #medarbejder h2 {
+        margin-top: 20px;
+    }
     #medarbejder img {
         width: 60%;
         display: block;
@@ -643,9 +646,11 @@ h2 {
     #overskriftomsos {
         margin-top: 50px;
     }
+
     #omos p {
         margin-top: -20px;
     }
+
     /******KONTAKT*********/
     #kontaktinformationer {
         display: flex;

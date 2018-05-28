@@ -648,9 +648,21 @@ h1 {
         margin-right: 10vw;
     }
     /*****BADeVÆRELSE********/
+    #badevarlse img {
+        width: 80%;
+    }
+    #badevarlse #banner {
+        width: 100%;
+    }
+    #badintro {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #badintro img {
+        margin-top: 100px;
+    }
     #badintro p {
-        margin-left: 10vw;
-        margin-right: 10vw;
+        margin-left: 21px;
     }
     #badevarlse #badimg1 {
         width: 35%;
@@ -667,8 +679,17 @@ h1 {
         margin-top: 55px;
     }
 
+    #badvarelsegrid p {
+        margin-right: 20px;
+    }
+    #badmobel p {
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+
+
     #badevarlse #badimg2 {
-        width: 70%;
+        width: 80%;
         display: block;
         margin: 0 auto;
         padding: 10px;
@@ -679,12 +700,8 @@ h1 {
         grid-gap: 10px;
 
     }
-    #badevarlse #banner {
-        width: 100%;
-    }
-    #badevarlse img {
-        width: 80%;
-    }
+
+
     /********PLANKEBORD***********/
     #planke #banner {
         width: 100%;

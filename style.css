@@ -856,44 +856,58 @@ h1 {
 
     }
     /******KONTAKT*********/
+    #kontaktinfo #banner {
+        width: 100%;
+
+    }
     #kontaktinformationer {
         display: flex;
 
     }
+    #introkontakt {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
 
+    #varksted {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
     #koninf {
         flex-grow: 1;
         width: 10%;
     }
     #adresse {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     #map {
-        width: 60vw;
-        height: 30vw;
-        flex-grow: 1;
-        margin: 80px;
+        width: 42vw;
+        height: 35vw;
+        margin-top: 100px;
+
     }
     #varksted {
         flex-grow: 1;
     }
 
     #kontaktdesign {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
-    #design {
-        flex-grow: 1;
-        width: 10%;
-    }
+
     #design img {
-        width: 80%;
+        width: 89%;
         display: block;
         margin: 0 auto;
     }
-    #overskrift3 {
-        margin: 90px;
+
+    #kontaktdesign p {
+        margin-left: 30x;
+        margin-right: 30px;
     }
+
 }
 
 /* MEDIAQUERIES SLUT */

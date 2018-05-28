@@ -38,6 +38,66 @@ $(document).ready(function () {
     });
 
 
+    $(".nav_proces").click(function () {
+        $("#levering").slideUp("slow");
+        $("#vedligeholdelse").slideUp("slow");
+        $("#omhandvark").slideUp("slow");
+
+
+        $("#proces").slideDown("pris");
+
+
+        $("html, body").animate({
+            scrollTop: 435
+        }, 900);
+
+    });
+
+    $(".nav_levering").click(function () {
+        $("#proces").slideUp("slow");
+        $("#vedligeholdelse").slideUp("slow");
+        $("#omhandvark").slideUp("slow");
+
+
+        $("#levering").slideDown("pris");
+
+
+        $("html, body").animate({
+            scrollTop: 450
+        }, 900);
+
+    });
+
+    $(".nav_vedligeholdelse").click(function () {
+        $("#proces").slideUp("slow");
+        $("#levering").slideUp("slow");
+        $("#omhandvark").slideUp("slow");
+
+
+        $("#vedligeholdelse").slideDown("pris");
+
+
+        $("html, body").animate({
+            scrollTop: 435
+        }, 900);
+
+    });
+
+    $(".nav_omhandvark").click(function () {
+        $("#proces").slideUp("slow");
+        $("#vedligeholdelse").slideUp("slow");
+        $("#levering").slideUp("slow");
+
+
+        $("#omhandvark").slideDown("pris");
+
+
+        $("html, body").animate({
+            scrollTop: 435
+        }, 900);
+
+    });
+
 
 
     $('.up').click(function () {

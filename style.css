@@ -646,13 +646,12 @@ h1 {
     }
 
     #kokkenflex img {
-        width: 90%;
-        margin-left: 50px;
-        margin-right: 50px
+        width: 80%;
+
     }
     /*****BADeVÆRELSE********/
     #badevarlse img {
-        width: 80%;
+        width: 85%;
     }
     #badevarlse #banner {
         width: 100%;
@@ -662,11 +661,13 @@ h1 {
         grid-template-columns: repeat(2, 1fr);
     }
     #badintro img {
-        margin-top: 100px;
+        margin-top: 50px;
     }
     #badintro p {
-        margin-left: 21px;
+        margin-left: 29px;
     }
+
+
     #badevarlse #badimg1 {
         width: 35%;
         display: block;
@@ -683,19 +684,18 @@ h1 {
     }
 
     #badvarelsegrid p {
-        margin-right: 20px;
+        margin-right: 32px;
     }
     #badmobel p {
-        margin-left: 8vw;
-        margin-right: 8vw;
+        margin-left: 14vw;
+        margin-right: 14vw;
     }
 
 
     #badevarlse #badimg2 {
-        width: 80%;
+        width: 70%;
         display: block;
         margin: 0 auto;
-        padding: 10px;
     }
     #badgrid {
         display: grid;
@@ -714,13 +714,34 @@ h1 {
     }
 
     #plankeintro p {
-        margin-left: 10vw;
-        margin-right: 10vw;
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+
+    #plankeintro img {
+        width: 68%;
     }
     #plankegrid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
+    }
+    #plankegrid img {
+        width: 87%;
+    }
+
+    #plankegrid .plankeimg {
+        margin-top: 30px;
+    }
+
+    #plankegrid .plankeimg3 {
+        width: 87%;
+        margin-top: 28px;
+    }
+    #plankegrid p {
+        margin-left: 30px;
+        margin-right: 32px;
+
     }
     /******** DIN SNEDKER*****/
     #dinsnedker img {

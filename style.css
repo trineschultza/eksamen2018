@@ -820,15 +820,6 @@ h1 {
     }
 
     /*********** OM OS ***********/
-    #medarbejder {
-        display: flex;
-    }
-
-    #medarbejder img {
-        width: 60%;
-        display: block;
-        margin: 0 auto;
-    }
     #omos #banner {
         width: 100%;
     }
@@ -837,14 +828,33 @@ h1 {
         display: block;
         margin: 0 auto;
     }
-    #overskriftomsos {
-        margin-top: 50px;
+    .omosintro {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+    .omosslut {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+    #omos .mogjimg {
+        width: 40%;
+    }
+    #medarbejder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    #omos p {
-        margin-top: -20px;
+    #medarbejder img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
     }
 
+    #medarbejder p {
+        margin-left: 30px;
+        margin-right: 30px;
+
+    }
     /******KONTAKT*********/
     #kontaktinformationer {
         display: flex;

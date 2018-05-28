@@ -106,6 +106,9 @@ body {
 
 p {
     padding: 10px;
+    font-family: 'railway', sans-serif;
+    line-height: 6.3vw;
+
 }
 
 h1 {
@@ -507,7 +510,6 @@ h1 {
         text-align: center;
     }
     p {
-        font-family: 'railway', sans-serif;
         line-height: 2vw;
     }
 
@@ -609,13 +611,11 @@ h1 {
     }
 
     #pris img {
-        width: 80%;
+        width: 90%;
     }
     #kokkenflex {
         display: grid;
-        bottom: 10px;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     #snedkerflex {
@@ -633,13 +633,25 @@ h1 {
         margin-top: 100px;
 
     }
-    .nykokken p {
+    .nykokken {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px
+    }
+    .nykokken #imgkok {
+        width: 100%;
+        margin-top: 45px;
+        padding: 10px;
+    }
+    .pris p {
         margin-left: 10vw;
         margin-right: 10vw;
-
     }
-
     /*****BADeVÆRELSE********/
+    #badintro p {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
     #badevarlse #badimg1 {
         width: 35%;
         display: block;
@@ -652,7 +664,7 @@ h1 {
     }
 
     #badvarelsegrid img {
-        margin-top: 40px;
+        margin-top: 55px;
     }
 
     #badevarlse #badimg2 {

@@ -1,8 +1,8 @@
 $(document).ready(function () {
     $(".nav_snedkerkokken").click(function () {
         $("#snedkerkokken").slideDown("slow");
-        $("#nytkokken").slideDown("slow");
-        $("#pris").slideDown("slow");
+        $("#nytkokken").slideUp("slow");
+        $("#pris").slideUp("slow");
         $("html, body").animate({
             scrollTop: 450
         }, 900);

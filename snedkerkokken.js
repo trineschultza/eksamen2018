@@ -20,9 +20,9 @@ async function hentJson() {
     document.querySelector("[data-overskrift6]").innerHTML = snedkerkokken.acf.overskrift6;
     document.querySelector("[data-tekst6]").innerHTML = snedkerkokken.acf.tekst6;
 
-    document.querySelector("[data-overskrift7]").innerHTML = snedkerkokken.acf.overskrift7;
-    document.querySelector("[data-tekst7]").innerHTML = snedkerkokken.acf.tekst7;
     document.querySelector("[data-img8]").src = snedkerkokken.acf.img8.url;
     document.querySelector("[data-img9]").src = snedkerkokken.acf.img9.url;
     document.querySelector("[data-img10]").src = snedkerkokken.acf.img10.url;
+    document.querySelector("[data-img11]").src = snedkerkokken.acf.img11.url;
+
 }

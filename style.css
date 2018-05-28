@@ -911,6 +911,13 @@ h1 {
         margin-right: 30px;
     }
 
+    footer {
+        text-align: center;
+        background-color: rgba(133, 150, 165, 0.5);
+    }
+    footer img {
+        padding: 20px;
+    }
 }
 
 /* MEDIAQUERIES SLUT */

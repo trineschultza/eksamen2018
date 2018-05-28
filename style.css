@@ -637,24 +637,18 @@ h1 {
         margin-right: 35px;
     }
     .pris .prisintro {
-        margin-left: 10vw;
-        margin-right: 10vw;
-    }
-    #pris #kokken {
-        width: 45%;
-    }
-
-    #pris img {
-        width: 90%;
+        margin-left: 15vw;
+        margin-right: 15vw;
     }
     #kokkenflex {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .pris p {
-        margin-left: 10vw;
-        margin-right: 10vw;
+    #kokkenflex img {
+        width: 90%;
+        margin-left: 50px;
+        margin-right: 50px
     }
     /*****BADeVÆRELSE********/
     #badevarlse img {

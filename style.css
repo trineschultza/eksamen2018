@@ -750,11 +750,13 @@ h1 {
     #dinsnedker #banner {
         width: 100%;
     }
-    #trae {
-        display: flex;
+
+
+    #dinsnedker p {
+        margin-left: 15vw;
+        margin-right: 15vw;
+
     }
-
-
     /********KØB HOS SCHARLING ****/
     #kob #banner {
         width: 100%;

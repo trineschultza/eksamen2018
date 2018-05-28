@@ -1,8 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
 
 .bar1,
 .bar2,
@@ -27,6 +33,10 @@ body {
 }
 
 .nav1 {
+    display: none;
+}
+
+.navbarforside {
     display: none;
 }
 
@@ -98,8 +108,10 @@ p {
     padding: 10px;
 }
 
-h2 {
+h1 {
     text-align: center;
+    font-family: 'railway', sans-serif;
+
 }
 
 .produkter-dropbtn {
@@ -490,28 +502,54 @@ h2 {
     .background-wrap {
         height: 80%;
     }
-    h2 {
+    /*********************BRØDTEKST***********/
+    h1 {
         text-align: center;
-        margin-top: 8vw;
-        margin-bottom: 3vw;
+    }
+    p {
+        font-family: 'railway', sans-serif;
+        line-height: 2vw;
     }
 
     img {
         width: 80%;
     }
-    p {
-        margin-left: 60px;
-        margin-right: 60px;
 
+
+    /*******FORSIDE*************/
+    .navbarforside {
+        background-color: rgba(255, 255, 255, 0.47);
+        position: fixed;
+        width: 100%;
+        display: list-item;
+        font-size: 1em;
+        text-align: right;
+        padding: 25px;
+        box-sizing: border-box;
+        z-index: 10;
+    }
+    .navbarforside a {
+        text-decoration: none;
+        color: black;
+        padding: 19px;
+        border-right: solid 1.2px;
+        padding-top: 2px;
+        padding-bottom: 2px;
     }
 
+    .navbarforside a:hover {
+        cursor: pointer;
+        background-color: antiquewhite;
+    }
 
 
     /*******PRODUKTER***********/
     #kobhosscharlinginfo {
         display: flex;
     }
-
+    #produkter h1 {
+        margin-top: 8vw;
+    }
     #produkter {
         width: 55%;
         display: block;
@@ -560,6 +598,10 @@ h2 {
         cursor: pointer;
         background-color: #184771;
     }
+    #snedkerintro p {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
 
 
     #pris #kokken {
@@ -578,25 +620,25 @@ h2 {
 
     #snedkerflex {
         display: grid;
-        bottom: 10px;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px
+    }
+    #snedkerflexp {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     #snedkerfleximg {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 100px;
 
     }
-    #snedkerflexp {
-        margin-top: -125px;
+    .nykokken p {
+        margin-left: 10vw;
+        margin-right: 10vw;
+
     }
-    #overskrift {
-        margin-top: -10px;
-    }
-    #overskrift1 {
-        margin-top: 10px;
-    }
+
     /*****BADeVÆRELSE********/
     #badevarlse #badimg1 {
         width: 35%;
@@ -609,18 +651,10 @@ h2 {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    #badevarlse #overskriftbad {
-        margin-top: 90px;
-    }
     #badvarelsegrid img {
         margin-top: 40px;
     }
-    #badp {
-        margin-top: -38px;
-    }
-    #badevarlse h2 {
-        margin-top: -30px;
-    }
+
     #badevarlse #badimg2 {
         width: 70%;
         display: block;
@@ -629,7 +663,6 @@ h2 {
     }
     #badgrid {
         display: grid;
-        bottom: 10px;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
 
@@ -647,7 +680,11 @@ h2 {
     #planke img {
         width: 80%;
     }
-
+    #plankegrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
     /******** DIN SNEDKER*****/
     #dinsnedker img {
         width: 80%;
@@ -658,8 +695,6 @@ h2 {
     #trae {
         display: flex;
     }
-
-
 
 
     /********KØB HOS SCHARLING ****/
@@ -673,10 +708,11 @@ h2 {
     #kob #leveringimg {
         width: 40%;
     }
-    #proces iframe {
+    .proces iframe {
         display: block;
         margin: 0 auto;
-        width: 100%;
+        width: 40%;
+        height: 22.5vw;
 
     }
 
@@ -699,9 +735,7 @@ h2 {
     #medarbejder {
         display: flex;
     }
-    #medarbejder h2 {
-        margin-top: 20px;
-    }
+
     #medarbejder img {
         width: 60%;
         display: block;
@@ -728,9 +762,7 @@ h2 {
         display: flex;
 
     }
-    #overskrift2 {
-        margin-top: -20px;
-    }
+
     #koninf {
         flex-grow: 1;
         width: 10%;

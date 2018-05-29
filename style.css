@@ -121,10 +121,9 @@ ul {
 
 h1 {
     text-align: center;
-    <<<<<<< HEAD font-family: 'Tajawal', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     font-size: 2em;
-    =======font-family: 'lora', serif;
-    > > > > > > > origin/master
+
 }
 
 .produkter-dropbtn {
@@ -865,6 +864,12 @@ ul {
     }
     #kobhosslut img {
         width: 65%;
+    }
+
+    #kobhosslut .citat {
+        margin-left: 1vw;
+        margin-right: 1vw;
+
     }
 
     /*********** OM OS ***********/

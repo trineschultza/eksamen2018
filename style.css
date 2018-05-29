@@ -364,6 +364,14 @@ h1 {
     margin-top: 50px;
 }
 
+#virksomhed iframe {
+    display: block;
+    margin: 0 auto;
+    height: 58.2vw;
+    width: 100%;
+
+}
+
 /******* KONTAKT***********/
 
 #kontaktinfo {
@@ -889,9 +897,7 @@ ul {
         margin-left: 15vw;
         margin-right: 15vw;
     }
-    #omos .mogjimg {
-        width: 69%;
-    }
+
     #medarbejder {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -907,6 +913,14 @@ ul {
     #medarbejder p {
         margin-left: 30px;
         margin-right: 30px;
+
+    }
+
+    #virksomhed iframe {
+        display: block;
+        margin: 0 auto;
+        width: 40%;
+        height: 22.5vw;
 
     }
     /******KONTAKT*********/

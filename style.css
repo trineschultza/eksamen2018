@@ -124,12 +124,11 @@ h1 {
     border: none;
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: #000000;
     padding: 19px;
     border-right: solid 1.2px;
     padding-top: 2px;
     padding-bottom: 2px;
-    font-family: Montserrat;
 }
 
 .produkter-dropdown {
@@ -149,6 +148,8 @@ h1 {
 
 .produkter-dropdown-content a {
     color: black;
+    font-family: 'railway', sans-serif;
+
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -487,7 +488,8 @@ h1 {
     }
     .navbar1 a {
         text-decoration: none;
-        color: black;
+        color: #000000;
+        font-family: 'railway', sans-serif;
         padding: 19px;
         border-right: solid 1.2px;
         padding-top: 2px;
@@ -534,7 +536,8 @@ h1 {
     }
     .navbarforside a {
         text-decoration: none;
-        color: black;
+        color: #ffffff;
+        font-family: 'railway', sans-serif;
         padding: 19px;
         border-right: solid 1.2px;
         padding-top: 2px;
@@ -908,6 +911,13 @@ h1 {
         margin-right: 30px;
     }
 
+    footer {
+        text-align: center;
+        background-color: rgba(133, 150, 165, 0.5);
+    }
+    footer img {
+        padding: 20px;
+    }
 }
 
 /* MEDIAQUERIES SLUT */

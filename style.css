@@ -105,6 +105,12 @@ body {
     display: block;
 }
 
+#border {
+    width: 100%;
+    height: 50px;
+    border-bottom: solid rgba(128, 128, 128, 0.42) 2px;
+}
+
 p,
 ul {
     padding: 10px;
@@ -115,7 +121,8 @@ ul {
 
 h1 {
     text-align: center;
-    font-family: 'Lora', serif;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 2em;
 
 }
 
@@ -152,7 +159,7 @@ h1 {
     overflow: auto;
     right: 0;
     z-index: 10;
-    background-color: #dd2020;
+    background-color: white;
 
 
 }
@@ -285,7 +292,9 @@ h1 {
     padding: 10px;
 }
 
-
+#badgrid {
+    padding: 30px;
+}
 
 /******* plankeborde************/
 
@@ -351,6 +360,10 @@ h1 {
     width: 100%;
 }
 
+#medarbejder img {
+    margin-top: 50px;
+}
+
 /******* KONTAKT***********/
 
 #kontaktinfo {
@@ -382,6 +395,10 @@ h1 {
     display: block;
     margin: 0 auto;
 
+}
+
+ul {
+    padding: 30px;
 }
 
 /* MEDIAQUERIES START */
@@ -430,11 +447,15 @@ h1 {
         margin: 10px;
         margin-right: 60px;
     }
-
+    #border {
+        width: 80%;
+        margin: 0 auto;
+        border-bottom: solid rgba(128, 128, 128, 0.42) 2px;
+    }
     .up {
 
         position: fixed;
-        right: 20px;
+        right: 3px;
         bottom: -25px;
         height: 90px;
         width: 50px;
@@ -518,8 +539,8 @@ h1 {
     }
     /*********************BRØDTEKST***********/
     h1 {
-        font-family: 'Butterfly Kids', cursive;
-
+        font-family: 'Tajawal', sans-serif;
+        font-size: 2.5em;
         text-align: center;
     }
     p,
@@ -863,11 +884,12 @@ h1 {
         margin-right: 15vw;
     }
     #omos .mogjimg {
-        width: 40%;
+        width: 69%;
     }
     #medarbejder {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin-top: 50px;
     }
 
     #medarbejder img {
@@ -886,10 +908,13 @@ h1 {
         width: 100%;
 
     }
+
+
     #kontaktinformationer {
         display: flex;
 
     }
+
     #introkontakt {
         margin-left: 15vw;
         margin-right: 15vw;

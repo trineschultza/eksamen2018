@@ -121,6 +121,7 @@ h1 {
 
 .produkter-dropbtn {
     background-color: rgba(255, 255, 255, 0);
+    font-family: 'raleway', sans-serif;
     font-size: 1em;
     border: none;
     cursor: pointer;
@@ -132,6 +133,10 @@ h1 {
     padding-bottom: 2px;
 }
 
+.produkter-dropbtn:hover {
+    color: #efc020;
+}
+
 .produkter-dropdown {
     position: relative;
     display: inline-block;
@@ -140,33 +145,33 @@ h1 {
 .produkter-dropdown-content {
     display: none;
     position: absolute;
-    background-image: url(img/strukturbaggrund.png);
     min-width: 190px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
     overflow: auto;
     right: 0;
     z-index: 10;
+    background-color: #dd2020;
+
+
 }
 
 .produkter-dropdown-content a {
     color: black;
     font-family: 'Raleway', sans-serif;
-
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
-.produkter-dropdown-content a:hover {
-    background-color: #ddd
-}
+.produkter-dropdown-content a:hover {}
 
 .produkter-dropdown:hover .produkter-dropdown-content {
     display: block;
 }
 
-.produkter--dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
+
 
 #produkterknap {
     padding: 0px;
@@ -479,16 +484,13 @@ h1 {
     }
 
     .navbar1 {
-        background-image: url(img/strukturbaggrund.png);
         position: fixed;
-        background: linear-gradient(to bottom, rgb(186, 180, 180)0%, rgba(240, 238, 238, 0.87) 100%);
-
         width: 100%;
         display: list-item;
         font-size: 1em;
         text-align: right;
         padding: 25px;
-        background-color: rgba(27, 141, 235, 0.19);
+        background-color: white;
         box-sizing: border-box;
         z-index: 10;
     }
@@ -504,7 +506,7 @@ h1 {
 
     .navbar1 a:hover {
         cursor: pointer;
-        background-color: antiquewhite;
+        color: #efc020;
     }
     video {
         width: 100%;
@@ -554,7 +556,7 @@ h1 {
 
     .navbarforside a:hover {
         cursor: pointer;
-        background-color: antiquewhite;
+        color: #efc020;
     }
 
 
@@ -590,6 +592,8 @@ h1 {
     }
     #produkter img:hover {
         cursor: pointer;
+        color: #efc020;
+
     }
 
 

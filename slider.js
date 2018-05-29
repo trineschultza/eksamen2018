@@ -29,7 +29,7 @@ $(document).ready(function () {
             console.log(scrollTo);
             $('html, body').animate({
                 scrollTop: scrollTo + 'px'
-            }, 'fast');
+            }, 'slow');
             return this; // for chaining...
         }
     })(jQuery);

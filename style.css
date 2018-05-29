@@ -107,14 +107,14 @@ body {
 p,
 ul {
     padding: 10px;
-    font-family: 'railway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 6.3vw;
 
 }
 
 h1 {
     text-align: center;
-    font-family: 'railway', sans-serif;
+    font-family: 'Butterfly Kids', cursive;
 
 }
 
@@ -148,7 +148,7 @@ h1 {
 
 .produkter-dropdown-content a {
     color: black;
-    font-family: 'railway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 
     padding: 12px 16px;
     text-decoration: none;
@@ -477,6 +477,8 @@ h1 {
     .navbar1 {
         background-image: url(img/strukturbaggrund.png);
         position: fixed;
+        background: linear-gradient(to bottom, rgb(186, 180, 180)0%, rgba(240, 238, 238, 0.87) 100%);
+
         width: 100%;
         display: list-item;
         font-size: 1em;
@@ -489,7 +491,7 @@ h1 {
     .navbar1 a {
         text-decoration: none;
         color: #000000;
-        font-family: 'railway', sans-serif;
+        font-family: 'Raleway', sans-serif;
         padding: 19px;
         border-right: solid 1.2px;
         padding-top: 2px;
@@ -510,6 +512,8 @@ h1 {
     }
     /*********************BRØDTEKST***********/
     h1 {
+        font-family: 'Butterfly Kids', cursive;
+
         text-align: center;
     }
     p,
@@ -537,7 +541,7 @@ h1 {
     .navbarforside a {
         text-decoration: none;
         color: #ffffff;
-        font-family: 'railway', sans-serif;
+        font-family: 'Raleway', sans-serif;
         padding: 19px;
         border-right: solid 1.2px;
         padding-top: 2px;

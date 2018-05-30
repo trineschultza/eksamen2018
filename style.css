@@ -9,6 +9,32 @@ body {
 
 }
 
+footer {
+    text-align: center;
+    background-image: url(img/strukturbaggrund.png);
+    margin-top: 30px;
+}
+
+footer img {
+    padding: 20px;
+}
+
+#samarbejdspartnere img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer #some img {
+    width: 25%;
+    text-decoration: none;
+}
+
+footer h1 {
+    font-size: 1.6em;
+}
+
+
+
 
 
 .bar1,
@@ -123,6 +149,8 @@ h1 {
     text-align: center;
     font-family: 'Tajawal', sans-serif;
     font-size: 2em;
+    font-weight: 300;
+
 
 }
 
@@ -411,36 +439,6 @@ ul {
 
 /* MEDIAQUERIES START */
 
-/* Smartphones (portrait and landscape) ----------- */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    /* Styles */
-}
-
-/* Smartphones (landscape) ----------- */
-
-@media only screen and (min-width: 321px) {
-    /* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-
-@media only screen and (max-width: 320px) {
-    /* Styles */
-}
-
-/* iPads (portrait and landscape) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
-
-/* iPads (landscape) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {}
-
-/* iPads (portrait) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {}
-
 /* Desktops and laptops ----------- */
 
 @media only screen and (min-width: 1224px) {
@@ -510,6 +508,10 @@ ul {
     }
     #toplogoa:hover {
         background-color: rgba(145, 109, 39, 0);
+    }
+
+    #scharlinglogo {
+        width: 15%;
     }
 
     .navbar1 {
@@ -637,14 +639,14 @@ ul {
 
     #lillemenu {
         visibility: inherit;
-        background-image: url(img/strukturbaggrund.png);
         text-align: center;
-        font-size: 1.4em;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1em;
         padding: 10px;
-        background-color: aliceblue;
+        background-color: #efc020;
         margin: 20px;
-        margin-left: 10vw;
-        margin-right: 10vw;
+        margin-left: 25vw;
+        margin-right: 25vw;
     }
 
     #lillemenu a {
@@ -655,7 +657,7 @@ ul {
     }
     #lillemenu a:hover {
         cursor: pointer;
-        background-color: #184771;
+        color: white;
     }
     .snedkerintro {
         margin-left: 15vw;
@@ -874,12 +876,37 @@ ul {
         width: 65%;
     }
 
-    #kobhosslut .citat {
+    #kobhosslut .citat p {
         margin-left: 1vw;
         margin-right: 1vw;
+        font-family: 'Josefin Slab', serif;
+        font-size: 1.3em;
 
     }
 
+
+    #lillemenu2 {
+        visibility: inherit;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1em;
+        padding: 10px;
+        background-color: #efc020;
+        margin: 20px;
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+
+    #lillemenu2 a {
+        text-decoration: none;
+        color: black;
+        padding: 15px;
+
+    }
+    #lillemenu2 a:hover {
+        cursor: pointer;
+        color: white;
+    }
     /*********** OM OS ***********/
     #omos #banner {
         width: 100%;
@@ -979,6 +1006,8 @@ ul {
         margin-right: 30px;
     }
 
+
+    /******FOOOOTER********/
     footer {
         text-align: center;
         background-color: rgba(133, 150, 165, 0.5);
@@ -986,6 +1015,26 @@ ul {
     footer img {
         padding: 20px;
     }
+
+    #samarbejdspartnere img {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    footer #some img {
+        width: 30%;
+        text-decoration: none;
+    }
+    #footerinfo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+
+
+
+    }
 }
+
+
 
 /* MEDIAQUERIES SLUT */

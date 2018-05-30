@@ -67,6 +67,11 @@ footer h1 {
     display: none;
 }
 
+#scharlinglogo {
+    width: 15%;
+    padding: 10px;
+}
+
 .change .bar1 {
     transform: rotate(-45deg)translate(-9px, 6px);
 }

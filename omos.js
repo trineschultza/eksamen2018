@@ -18,7 +18,6 @@ async function hentJson() {
     document.querySelector("[data-overskrift4]").innerHTML = omos.acf.overskrift4;
     document.querySelector("[data-tekst4]").innerHTML = omos.acf.tekst4;
 
-    document.querySelector("[data-img5]").src = omos.acf.img5.url;
     document.querySelector("[data-overskrift5]").innerHTML = omos.acf.overskrift5;
     document.querySelector("[data-tekst5]").innerHTML = omos.acf.tekst5;
 

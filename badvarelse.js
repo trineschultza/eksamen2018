@@ -18,5 +18,4 @@ async function hentJson() {
     document.querySelector("[data-tekst4]").innerHTML = badvarelse.acf.tekst4;
     document.querySelector("[data-img4]").src = badvarelse.acf.img4.url;
     document.querySelector("[data-img5]").src = badvarelse.acf.img5.url;
-    document.querySelector("[data-img6]").src = badvarelse.acf.img6.url;
 }

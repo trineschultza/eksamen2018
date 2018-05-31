@@ -350,6 +350,10 @@ h1 {
     width: 100%;
 }
 
+#omos .madogjonas {
+    margin-top: 20px;
+}
+
 #medarbejder img {
     margin-top: 50px;
 }
@@ -765,30 +769,11 @@ ul {
     #badevarlse #banner {
         width: 100%;
     }
-    #badintro {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    #badintro img {
-        margin-top: 50px;
-    }
-    #badintro p {
+    #badevarlse p {
         margin-left: 30px;
-    }
-
-
-    #badvarelsegrid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    #badvarelsegrid img {
-        margin-top: 55px;
-    }
-
-    #badvarelsegrid p {
         margin-right: 30px;
     }
+
 
     #badgrid {
         display: grid;
@@ -797,14 +782,8 @@ ul {
 
     }
 
-    #badgrid #badimg1 {
-        width: 94%;
-        margin-top: 30px;
-    }
-    .badmobel p {
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 20px;
+    #badgrid img {
+        margin-top: 20px;
     }
 
 
@@ -1042,7 +1021,6 @@ ul {
         width: 100%;
     }
 
-
     #medarbejder {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1087,7 +1065,7 @@ ul {
         margin-left: 15vw;
         margin-right: 15vw;
     }
-
+    #varksted p,
     #varksted {
         margin-left: 30px;
         margin-right: 30px;
@@ -1107,7 +1085,7 @@ ul {
     }
 
     #map {
-        width: 42vw;
+        width: 38vw;
         height: 35vw;
         margin-top: 100px;
 
@@ -1122,21 +1100,13 @@ ul {
     }
 
     #design img {
-        width: 89%;
+        width: 79%;
         display: block;
         margin: 0 auto;
     }
 
-    #design2 img {
-        width: 89%;
-        display: block;
-        margin: 0 auto;
-    }
 
-    #kontaktdesign p {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
+
 
 
     /******FOOOOTER********/

@@ -1029,14 +1029,15 @@ ul {
         display: block;
         margin: 0 auto;
     }
-    .omosintro {
-        margin-left: 15vw;
-        margin-right: 15vw;
+
+    .omosgrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
-    .omosslut {
-        margin-left: 15vw;
-        margin-right: 15vw;
+    #omos .madogjonas {
+        width: 100%;
     }
+
 
     #medarbejder {
         display: grid;
@@ -1050,10 +1051,9 @@ ul {
         margin: 0 auto;
     }
 
-    #medarbejder p {
-        margin-left: 30px;
+    #omos p {
         margin-right: 30px;
-
+        margin-left: 30px;
     }
 
     #virksomhed iframe {

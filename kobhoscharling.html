@@ -23,46 +23,47 @@
 
 <body>
 
-    <div id="menu">
+    <div class="navbar1">
 
-        <div class="navbar1">
-
-            <a href="index.html" id="toplogoa">   <img id="toplogo" src="img/logo.jpg" alt="logo"></a>
-            <a href="index.html"> Forside</a>
-            <div class="produkter-dropdown">
-                <a id="produkterknap" href="produkter.html"><button class="produkter-dropbtn">Produkter</button></a>
-                <div class="produkter-dropdown-content">
-                    <a href="snedkerkokken.html">Snedkerkøkkener</a>
-                    <a href="badvarelse.html">Badeværelser</a>
-                    <a href="planke.html">Plankeborde</a>
-                    <a href="dinsnedker.html">Din snedkerløsning</a>
-                </div>
-            </div>
-            <a href="kobhoscharling.html">Køb hos Scharling</a>
-            <a href="omos.html">Om os</a>
-            <a href="kontakt.html">Kontakt</a>
-        </div>
-
-        <div class="navbar">
-            <a href="index.html" id="toplogoa">   <img id="toplogo" src="img/logo.jpg" alt="logo"></a>
-
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="index.html">Forside</a>
-                    <a href="produkter.html">Produkter</a>
-                    <a href="kobhoscharling.html">Køb hos Scharling</a>
-                    <a href="omos.html">Om os</a>
-                    <a href="kontakt.html">Kontakt</a>
-                </div>
+        <a href="index.html" id="toplogoa">   <img id="toplogo" src="img/logo.jpg" alt="logo"></a>
+        <a href="index.html"> Forside</a>
+        <div class="produkter-dropdown">
+            <button class="produkter-dropbtn">Produkter</button>
+            <div class="produkter-dropdown-content">
+                <a href="snedkerkokken.html">Snedkerkøkkener</a>
+                <a href="badvarelse.html">Badeværelser</a>
+                <a href="planke.html">Plankeborde</a>
+                <a href="dinsnedker.html">Din snedkerløsning</a>
             </div>
         </div>
+        <a href="kobhoscharling.html">Køb hos Scharling</a>
+        <a href="omos.html">Om os</a>
+        <a href="kontakt.html">Kontakt</a>
     </div>
 
+
+    <nav role="navigation">
+        <div id="menuToggle">
+
+            <input type="checkbox" />
+            <span class="first"></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                <a href="index.html">Forside</a>
+                <a href="produkter.html">Produkter</a>
+                <a href="snedkerkokken.html">Snedkerkøkkener</a>
+                <a href="badvarelse.html">Badeværelser</a>
+                <a href="planke.html">Plankeborde</a>
+                <a href="dinsnedker.html">Din snedkerløsning</a>
+                <a href="kobhoscharling.html">Køb hos Scharling</a>
+                <a href="omos.html">Om os</a>
+                <a href="kontakt.html">Kontakt</a>
+
+            </ul>
+        </div>
+    </nav>
 
     <div id="kob">
 
@@ -106,7 +107,7 @@
                     <div data-tekst6></div>
                 </div>
             </section>
-            <div id="border2"> </div>
+            <div id="border"> </div>
 
             <section id="vedligeholdelse">
                 <h1 data-overskrift7></h1>
@@ -118,7 +119,7 @@
 
             </section>
 
-            <div id="border3"> </div>
+            <div id="border"> </div>
 
 
             <section id="omhandvark">

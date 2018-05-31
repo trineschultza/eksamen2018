@@ -1010,10 +1010,9 @@ ul {
         display: flex;
 
     }
-
     #introkontakt {
-        margin-left: 15vw;
-        margin-right: 15vw;
+        margin-left: 60px;
+        margin-right: 30px;
     }
     #varksted p,
     #varksted {
@@ -1029,6 +1028,13 @@ ul {
         flex-grow: 1;
         width: 10%;
     }
+
+    #informationer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30px;
+
+    }
     #adresse {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1036,8 +1042,8 @@ ul {
 
     #map {
         width: 38vw;
-        height: 35vw;
-        margin-top: 100px;
+        height: 33vw;
+        margin-top: 120px;
 
     }
     #varksted {
@@ -1054,10 +1060,6 @@ ul {
         display: block;
         margin: 0 auto;
     }
-
-
-
-
 
     /******FOOOOTER********/
     footer {

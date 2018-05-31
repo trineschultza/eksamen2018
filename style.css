@@ -1024,7 +1024,7 @@ ul {
     #omos #banner {
         width: 100%;
     }
-    .omosgrid p {
+    .omosgrid {
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -1048,7 +1048,7 @@ ul {
         grid-template-columns: repeat(2, 1fr);
         margin-top: 50px;
     }
-    #medarbejder p {
+    #medarbejder {
         margin-left: 30px;
         margin-right: 30px;
     }

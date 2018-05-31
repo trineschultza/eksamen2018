@@ -26,6 +26,8 @@ async function hentJson() {
     document.querySelector("[data-tekst12]").innerHTML = kobhosscharling.acf.tekst12;
     document.querySelector("[data-overskrift13]").innerHTML = kobhosscharling.acf.overskrift13;
     document.querySelector("[data-tekst13]").innerHTML = kobhosscharling.acf.tekst13;
-    document.querySelector("[data-tekst14]").innerHTML = kobhosscharling.acf.tekst14;
+    document.querySelector("[data-img11]").src = kobhosscharling.acf.img11.url;
+    document.querySelector("[data-img12]").src = kobhosscharling.acf.img12.url;
+
 
 }

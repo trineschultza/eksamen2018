@@ -804,7 +804,9 @@ ul {
         margin-right: 30px;
     }
 
-
+    #nytkokken #imgkok {
+        width: 76%;
+    }
     #snedker .snedkerfleximg {
         width: 85%;
         margin-top: 90px;
@@ -1153,8 +1155,9 @@ ul {
     }
 
     footer #some img {
-        width: 30%;
+        width: 20%;
         text-decoration: none;
+        margin-top: 30px;
     }
     #footerinfo {
         display: grid;
@@ -1165,6 +1168,7 @@ ul {
 
     }
 
+    /*****SOMECONTENT********/
     #facebook {
         max-width: 10%;
         padding: 10px;

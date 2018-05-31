@@ -402,7 +402,8 @@ h1 {
 }
 
 ul {
-    padding: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 /* MEDIAQUERIES START */
@@ -788,23 +789,24 @@ ul {
 
 
     /********PLANKEBORD***********/
-    #planke #banner {
+    .banner #banner {
         width: 100%;
     }
     #planke img {
         width: 80%;
         margin-top: 0px;
-
+    }
+    #plankegrid .plankeintro {
+        width: 85%;
     }
 
-    #plankeintro p {
-        margin-left: 15vw;
-        margin-right: 15vw;
+    #planke,
+    #plankegrid p {
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
-    #plankeintro img {
-        width: 68%;
-    }
+
     #plankegrid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -813,81 +815,31 @@ ul {
     #plankegrid .plankeintro {
         margin-top: 30px;
     }
+
+    #plankegrid .plankeimg3 {
+        width: 87%;
+    }
+
+    #plankegrid .plankeimg2 {
+        width: 85%;
+    }
     #plankegrid img {
         width: 87%;
     }
 
-    #plankegrid .plankeimg {
-        margin-top: 30px;
-    }
 
-    #plankegrid .plankeimg3 {
-        width: 87%;
-        margin-top: 28px;
-    }
-    #plankegrid2 .plankeimg1 {
-        margin-top: 31px;
-    }
-    #plankegrid p {
-        margin-left: 30px;
-        margin-right: 32px;
 
-    }
 
-    #plankegrid2 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-    }
-
-    #plankegrid2 img {
-        width: 87%;
-    }
-
-    #plankegrid2 .plankeimg {
-        margin-top: 30px;
-    }
-
-    #plankegrid2 .plankeimg3 {
-        width: 87%;
-        margin-top: 28px;
-    }
-    #plankegrid2 p {
-        margin-left: 30px;
-        margin-right: 32px;
-
-    }
-
-    #plankegrid3 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-    }
-
-    #plankegrid3 img {
-        width: 87%;
-    }
-
-    #plankegrid3 .plankeimg {
-        margin-top: 30px;
-    }
-
-    #plankegrid3 .plankeimg3 {
-        width: 87%;
-        margin-top: 28px;
-    }
-    #plankegrid3 p {
-        margin-left: 30px;
-        margin-right: 32px;
-
-    }
     /******** DIN SNEDKER*****/
     #dinsnedker img {
         width: 100%;
         margin-top: 0px;
 
     }
-    #dinsnedker #banner {
+    .snedker img {
+        width: 100%;
+    }
+    .banner #banner {
         width: 100%;
     }
     #dinsnedker .snedkerimg {
@@ -895,6 +847,7 @@ ul {
         margin-bottom: 30px;
     }
 
+    #dinsnedker,
     #dinsnedker p {
         margin-left: 30px;
         margin-right: 30px;
@@ -947,10 +900,7 @@ ul {
         margin-right: 30px;
     }
 
-    #traeviarbejdermed {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
+
 
     #levering p {
         margin-left: 10px;
@@ -965,7 +915,7 @@ ul {
     }
     #kobgrid .vedligholdelse {
         margin-top: 31px;
-        width: 95.3%;
+        width: 86%;
 
     }
     #kobhosslut .citat p {

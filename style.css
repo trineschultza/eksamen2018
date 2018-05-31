@@ -43,13 +43,18 @@ footer h1 {
 .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #5c6671;
+    background-color: #3f434d;
     margin: 6px 0;
     transition: 0.5s;
 }
 
 .up {
     visibility: hidden;
+}
+
+
+#splash {
+    z-index: 1;
 }
 
 .navbar1 {
@@ -68,11 +73,6 @@ footer h1 {
     display: none;
 }
 
-#scharlinglogo {
-    width: 15%;
-    padding: 10px;
-}
-
 .change .bar1 {
     transform: rotate(-45deg)translate(-9px, 6px);
 }
@@ -85,10 +85,18 @@ footer h1 {
     transform: rotate(45deg)translate(-8px, -8px);
 }
 
+.navbar #toplogo {
+    width: 20%;
+    margin-top: 1px;
+    padding: 10px;
+    opacity: 0.8;
+}
+
 .dropbtn {
-    background-color: white;
-    /*color: white;*/
-    padding: 7px;
+    background-color: rgba(63, 67, 77, 0);
+    z-index: 20;
+    margin-top: 20px;
+    margin-right: 12px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -108,7 +116,7 @@ footer h1 {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #fffdf6;
     min-width: 160px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px #3d3d3d;
@@ -117,13 +125,13 @@ footer h1 {
 }
 
 .dropdown-content a {
-    background-color: white;
+    background-color: #fffdf6;
     display: block;
-    color: black;
+    color: #3f434d;
     padding: 10px 16px;
     text-decoration: none;
     text-align: right;
-    font-family: Montserrat;
+    font-family: 'raleway', sans-serif;
     font-size: 14px;
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 2);
 }
@@ -176,26 +184,48 @@ h1 {
 
 }
 
+
+
 #lillemenu2 {
     visibility: hidden;
 }
 
-/**********************************FORSIDE*******************/
 
-#facebook {
-    max-width: 10%;
-    padding: 10px;
+/********SOME************/
+
+.some_splash .instagram,
+.some_splash .facebook {
+    width: 10.2vw;
+    height: auto;
 }
 
-#instagram {
-    max-width: 10%;
-    padding: 10px;
+.some_splash .kontakt {
+    width: 14.2vw;
+
 }
 
-#kontakt {
-    max-width: 10%;
-    padding: 10px;
+.some_splash .kontakt {
+    position: absolute;
+    bottom: 10px;
+    right: 1vw;
+    bottom: 1px;
+    color: white;
 }
+
+.some_splash .instagram {
+    position: absolute;
+    right: 15vw;
+    bottom: 10px;
+    color: white;
+}
+
+.some_splash .facebook {
+    position: absolute;
+    bottom: 10px;
+    right: 26vw;
+}
+
+
 
 /****** PRODUKTER****************/
 
@@ -547,6 +577,9 @@ ul {
     }
 
 
+    .navbar #toplogo {
+        display: none;
+    }
     /*******FORSIDE*************/
     .navbarforside {
         background-color: rgba(255, 255, 255, 0.47);
@@ -878,6 +911,7 @@ ul {
         margin: 0 auto;
         width: 94.5%;
         height: 25.5vw;
+        width: 86%;
 
     }
 
@@ -900,10 +934,8 @@ ul {
         margin-right: 30px;
     }
 
-
-
     #levering p {
-        margin-left: 10px;
+        margin-left: 34px;
     }
     #kobgrid .omhandvark {
         margin-top: 33px;
@@ -1041,9 +1073,10 @@ ul {
     }
 
     #map {
-        width: 38vw;
+        width: 43vw;
         height: 33vw;
         margin-top: 120px;
+        margin-left: 20px;
 
     }
     #varksted {
@@ -1086,6 +1119,21 @@ ul {
 
 
 
+    }
+
+    #facebook {
+        max-width: 10%;
+        padding: 10px;
+    }
+
+    #instagram {
+        max-width: 10%;
+        padding: 10px;
+    }
+
+    #kontakt {
+        max-width: 10%;
+        padding: 10px;
     }
 }
 

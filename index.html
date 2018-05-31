@@ -31,14 +31,8 @@
         <a href="omos.html">Om os</a>
         <a href="kontakt.html">Kontakt</a>
     </div>
-    <div class="background-wrap">
 
-        <video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
-<source src="baggrund.mp4" type="video/mp4">
-Video not supoorted
-</video>
 
-    </div>
 
     <div class="navbar">
         <div class="dropdown">
@@ -55,6 +49,17 @@ Video not supoorted
                 <a href="kontakt.html">Kontakt</a>
             </div>
         </div>
+    </div>
+
+    <div id="splash" style="max-width:100%">
+
+
+        <img class="mySlides w3-animate-fading" src="img/slide1.png" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="img/slide2.png" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="img/slide3.png" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="img/slide4.png" style="width:100%">
+
+
     </div>
 
 
@@ -78,6 +83,60 @@ Video not supoorted
     </section>
 
 
+    <!--
+        <div class="background-wrap">
+
+        <video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
+<source src="baggrund.mp4" type="video/mp4">
+Video not supoorted
+</video>
+
+
+    </div>
+-->
+
+
+
+
+
+    <!--
+    <section class="some_splash">
+        <section>
+            <a href="https://www.facebook.com/scharlingwood/?hc_ref=ARQYM4o_G3KCQAfROQvGayZfML5pGVuRQ4fKobToRVmQXzqXyWzKYBKCCwWK23zLUGA&fref=nf" target="_blank"> <img class="facebook" src="img/facebook.png" alt="facebook1"> </a>
+
+        </section>
+        <section>
+
+            <a href="https://www.instagram.com/scharlingwood/" target="_blank"> <img class="instagram" src="img/insta.png" alt="instagram1"> </a>
+
+
+        </section>
+
+        <section>
+            <img class="kontakt" src="img/mail.png" alt="kontakt1">
+
+        </section>
+    </section>
+-->
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000);
+        }
+    </script>
 
     <script src="menu.js"></script>
 </body>

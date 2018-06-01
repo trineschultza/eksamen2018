@@ -707,20 +707,8 @@ ul {
         margin-top: 8vw;
     }
 
-    #backgrundimg {
-        position: relative;
-        background-image: url(img/Asset%202.png);
-        background-repeat: no-repeat;
-
-        background-attachment: fixed;
-        background-size: cover;
-        width: 100%;
-        height: auto;
-    }
     #produkter {
-        width: 55%;
-        display: block;
-        margin: 0 auto;
+        width: 100%;
 
     }
 

@@ -861,8 +861,11 @@ ul {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
     }
-    #plankegrid .plankeintro {
-        margin-top: 30px;
+    #plankegrid .plankeintro,
+    #plankegrid .plankeimg,
+    #plankegrid .plankeimg2,
+    #plankegrid .plankeimg3 {
+        margin-top: 31px;
     }
 
     #plankegrid .plankeimg3 {

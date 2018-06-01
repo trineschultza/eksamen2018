@@ -17,7 +17,6 @@
     <meta name="theme-color" content="#ffffff">
 
     <link href="https://fonts.googleapis.com/css?family=Raleway|Tajawal:200,300,400" rel="stylesheet">
-
 </head>
 
 <body>
@@ -39,22 +38,31 @@
         <a href="omos.html">Om os</a>
         <a href="kontakt.html">Kontakt</a>
     </div>
-    <div class="navbar">
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </button>
-            <div id="myDropdown" class="dropdown-content">
+
+
+
+    <nav role="navigation">
+        <div id="menuToggle">
+
+            <input type="checkbox" />
+            <span class="first"></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
                 <a href="index.html">Forside</a>
                 <a href="produkter.html">Produkter</a>
+                <a href="snedkerkokken.html">Snedkerkøkkener</a>
+                <a href="badvarelse.html">Badeværelser</a>
+                <a href="planke.html">Plankeborde</a>
+                <a href="dinsnedker.html">Din snedkerløsning</a>
                 <a href="kobhoscharling.html">Køb hos Scharling</a>
                 <a href="omos.html">Om os</a>
                 <a href="kontakt.html">Kontakt</a>
-            </div>
+
+            </ul>
         </div>
-    </div>
+    </nav>
 
     <div id="snedker">
 
@@ -80,7 +88,6 @@
                 </div>
             </div>
 
-            <h1 id="overskrift" data-overskrift4></h1>
 
             <div id="snedkerflex">
 
@@ -89,6 +96,8 @@
                 <img class="snedkerfleximg" data-img4 src="" alt="data-img4">
             </div>
         </section>
+
+
         <div id="border"> </div>
 
 
@@ -105,7 +114,7 @@
             </div>
         </section>
 
-        <div id="border2"> </div>
+        <div id="border"> </div>
 
         <section id="pris">
             <div class="pris">
@@ -163,15 +172,11 @@
 
             <div id="some">
 
-                <a href="https://www.facebook.com/scharlingwood/?hc_ref=ARQYM4o_G3KCQAfROQvGayZfML5pGVuRQ4fKobToRVmQXzqXyWzKYBKCCwWK23zLUGA&fref=nf" target="_blank"> <img class="facebook" src="img/facebook.png" alt="facebook1"> </a>
+                <a href="https://www.facebook.com/scharlingwood/?hc_ref=ARQYM4o_G3KCQAfROQvGayZfML5pGVuRQ4fKobToRVmQXzqXyWzKYBKCCwWK23zLUGA&fref=nf" target="_blank"> <img class="facebook" src="img/facebook.svg" alt="facebook1"> </a>
 
 
-                <a href="https://www.instagram.com/scharlingwood/" target="_blank"> <img class="instagram" src="img/insta.png" alt="instagram1"> </a>
+                <a href="https://www.instagram.com/scharlingwood/" target="_blank"> <img class="instagram" src="img/instagram.svg" alt="instagram1"> </a>
 
-
-
-
-                <img class="kontakt" src="img/mail.png" alt="kontakt1">
 
 
             </div>
@@ -182,7 +187,6 @@
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js "></script>
     <script src="snedkerkokken.js"></script>
-    <script src="menu.js"></script>
     <script src="slider.js"></script>
 
 </body>

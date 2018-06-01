@@ -38,23 +38,29 @@
         <a href="omos.html">Om os</a>
         <a href="kontakt.html">Kontakt</a>
     </div>
-    <div class="navbar">
-        <div class="dropdown">
 
-            <button onclick="myFunction()" class="dropbtn">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </button>
-            <div id="myDropdown" class="dropdown-content">
+    <nav role="navigation">
+        <div id="menuToggle">
+
+            <input type="checkbox" />
+            <span class="first"></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
                 <a href="index.html">Forside</a>
                 <a href="produkter.html">Produkter</a>
+                <a href="snedkerkokken.html">Snedkerkøkkener</a>
+                <a href="badvarelse.html">Badeværelser</a>
+                <a href="planke.html">Plankeborde</a>
+                <a href="dinsnedker.html">Din snedkerløsning</a>
                 <a href="kobhoscharling.html">Køb hos Scharling</a>
                 <a href="omos.html">Om os</a>
                 <a href="kontakt.html">Kontakt</a>
-            </div>
+
+            </ul>
         </div>
-    </div>
+    </nav>
 
 
     <div id="omos">
@@ -62,10 +68,14 @@
         <img id="banner" data-img src="" alt="dataimg">
 
         <h1 data-overskrift1></h1>
-        <div class="omosintro" data-tekst1></div>
+        <div class="omosgrid">
+            <div data-tekst1>
+            </div>
+            <div data-tekst6></div>
+        </div>
+        <img class="madogjonas" data-img6 src="" alt="dataimg6">
 
 
-        <div id="border"> </div>
 
         <div id="medarbejder">
             <div>
@@ -76,8 +86,6 @@
 
             </div>
 
-
-
             <div>
 
                 <img data-img4 src="" alt="dataimg4">
@@ -86,10 +94,14 @@
             </div>
 
         </div>
-        <div id="border2"> </div>
-        <div id="scharlinghis">
-            <h1 data-overskrift5></h1>
-            <div class="omosslut" data-tekst5></div>
+        <div id="border"> </div>
+
+        <h1 data-overskrift5></h1>
+
+        <div class="omosgrid">
+            <div data-tekst5></div>
+            <div data-tekst7></div>
+
         </div>
 
 
@@ -120,15 +132,11 @@
 
             <div id="some">
 
-                <a href="https://www.facebook.com/scharlingwood/?hc_ref=ARQYM4o_G3KCQAfROQvGayZfML5pGVuRQ4fKobToRVmQXzqXyWzKYBKCCwWK23zLUGA&fref=nf" target="_blank"> <img class="facebook" src="img/facebook.png" alt="facebook1"> </a>
+                <a href="https://www.facebook.com/scharlingwood/?hc_ref=ARQYM4o_G3KCQAfROQvGayZfML5pGVuRQ4fKobToRVmQXzqXyWzKYBKCCwWK23zLUGA&fref=nf" target="_blank"> <img class="facebook" src="img/facebook.svg" alt="facebook1"> </a>
 
 
-                <a href="https://www.instagram.com/scharlingwood/" target="_blank"> <img class="instagram" src="img/insta.png" alt="instagram1"> </a>
+                <a href="https://www.instagram.com/scharlingwood/" target="_blank"> <img class="instagram" src="img/instagram.svg" alt="instagram1"> </a>
 
-
-
-
-                <img class="kontakt" src="img/mail.png" alt="mail1">
 
 
             </div>
@@ -138,7 +146,6 @@
     </footer>
 
     <script src="omos.js"></script>
-    <script src="menu.js"></script>
 </body>
 
 </html>

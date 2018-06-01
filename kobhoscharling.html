@@ -23,44 +23,47 @@
 
 <body>
 
-    <div id="menu">
+    <div class="navbar1">
 
-        <div class="navbar1">
-
-            <a href="index.html" id="toplogoa">   <img id="toplogo" src="img/logo.jpg" alt="logo"></a>
-            <a href="index.html"> Forside</a>
-            <div class="produkter-dropdown">
-                <a id="produkterknap" href="produkter.html"><button class="produkter-dropbtn">Produkter</button></a>
-                <div class="produkter-dropdown-content">
-                    <a href="snedkerkokken.html">Snedkerkøkkener</a>
-                    <a href="badvarelse.html">Badeværelser</a>
-                    <a href="planke.html">Plankeborde</a>
-                    <a href="dinsnedker.html">Din snedkerløsning</a>
-                </div>
-            </div>
-            <a href="kobhoscharling.html">Køb hos Scharling</a>
-            <a href="omos.html">Om os</a>
-            <a href="kontakt.html">Kontakt</a>
-        </div>
-
-        <div class="navbar">
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="index.html">Forside</a>
-                    <a href="produkter.html">Produkter</a>
-                    <a href="kobhoscharling.html">Køb hos Scharling</a>
-                    <a href="omos.html">Om os</a>
-                    <a href="kontakt.html">Kontakt</a>
-                </div>
+        <a href="index.html" id="toplogoa">   <img id="toplogo" src="img/logo.jpg" alt="logo"></a>
+        <a href="index.html"> Forside</a>
+        <div class="produkter-dropdown">
+            <button class="produkter-dropbtn">Produkter</button>
+            <div class="produkter-dropdown-content">
+                <a href="snedkerkokken.html">Snedkerkøkkener</a>
+                <a href="badvarelse.html">Badeværelser</a>
+                <a href="planke.html">Plankeborde</a>
+                <a href="dinsnedker.html">Din snedkerløsning</a>
             </div>
         </div>
+        <a href="kobhoscharling.html">Køb hos Scharling</a>
+        <a href="omos.html">Om os</a>
+        <a href="kontakt.html">Kontakt</a>
     </div>
 
+
+    <nav role="navigation">
+        <div id="menuToggle">
+
+            <input type="checkbox" />
+            <span class="first"></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                <a href="index.html">Forside</a>
+                <a href="produkter.html">Produkter</a>
+                <a href="snedkerkokken.html">Snedkerkøkkener</a>
+                <a href="badvarelse.html">Badeværelser</a>
+                <a href="planke.html">Plankeborde</a>
+                <a href="dinsnedker.html">Din snedkerløsning</a>
+                <a href="kobhoscharling.html">Køb hos Scharling</a>
+                <a href="omos.html">Om os</a>
+                <a href="kontakt.html">Kontakt</a>
+
+            </ul>
+        </div>
+    </nav>
 
     <div id="kob">
 
@@ -79,14 +82,17 @@
         <div class="proces">
 
             <section id="proces">
+
                 <h1 data-overskrift2></h1>
-                <div data-tekst></div>
+                <div id="kobgrid">
 
-                <div data-teskt2></div>
+                    <div data-tekst></div>
+                    <div class="kobgrid1">
+                        <div data-teskt2></div>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/zpGxLTH3Okc"></iframe>
-
-
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/df8REDIX7Ls" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
             </section>
 
             <div id="border"> </div>
@@ -94,35 +100,44 @@
 
             <section id="levering">
                 <h1 data-overskrift6></h1>
-                <div data-tekst6></div>
-                <img id="leveringimg" data-img6 src="" alt="data-img6">
 
+                <div id="kobgrid">
+                    <img id="leveringimg" data-img6 src="" alt="data-img6">
+
+                    <div data-tekst6></div>
+                </div>
             </section>
-            <div id="border2"> </div>
+            <div id="border"> </div>
 
             <section id="vedligeholdelse">
                 <h1 data-overskrift7></h1>
                 <h1 data-overskrift8></h1>
-                <div data-tekst8></div>
+                <div id="kobgrid">
+                    <div data-tekst8></div>
+                    <img class="vedligholdelse" data-img11 src="" alt="data-img11">
+                </div>
 
             </section>
 
-            <div id="border3"> </div>
+            <div id="border"> </div>
 
 
             <section id="omhandvark">
 
                 <h1 data-overskrift11></h1>
-                <div data-tekst11></div>
+                <div id="kobgrid">
+                    <img class="omhandvark" data-img12 src="" alt="data-img12">
 
+                    <div data-tekst11></div>
+                </div>
 
-                <div id="trae">
+                <div id="kobgrid">
                     <div id="traeviarbejdermed">
                         <h1 data-overskrift12></h1>
                         <div data-tekst12></div>
                     </div>
 
-                    <div id="traeviarbejdermed2">
+                    <div id="traeviarbejdermed">
 
                         <h1 data-overskrift13></h1>
                         <div data-tekst13></div>
@@ -131,7 +146,6 @@
                 </div>
 
                 <div id="kobhosslut">
-                    <div class="citat" data-tekst14></div>
                     <img data-img10 src="" alt="data-img10">
 
                 </div>
@@ -163,15 +177,12 @@
 
             <div id="some">
 
-                <a href="https://www.facebook.com/scharlingwood/?hc_ref=ARQYM4o_G3KCQAfROQvGayZfML5pGVuRQ4fKobToRVmQXzqXyWzKYBKCCwWK23zLUGA&fref=nf" target="_blank"> <img class="facebook" src="img/facebook.png" alt="facebook1"> </a>
+                <a href="https://www.facebook.com/scharlingwood/?hc_ref=ARQYM4o_G3KCQAfROQvGayZfML5pGVuRQ4fKobToRVmQXzqXyWzKYBKCCwWK23zLUGA&fref=nf" target="_blank"> <img class="facebook" src="img/facebook.svg" alt="facebook1"> </a>
 
 
-                <a href="https://www.instagram.com/scharlingwood/" target="_blank"> <img class="instagram" src="img/insta.png" alt="instagram1"> </a>
+                <a href="https://www.instagram.com/scharlingwood/" target="_blank"> <img class="instagram" src="img/instagram.svg" alt="instagram1"> </a>
 
 
-
-
-                <img class="kontakt" src="img/mail.png" alt="mail">
 
 
             </div>
@@ -184,7 +195,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js "></script>
 
     <script src="kobhosscharling.js"></script>
-    <script src="menu.js"></script>
     <script src="slider.js"></script>
 
 </body>

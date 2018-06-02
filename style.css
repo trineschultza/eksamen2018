@@ -440,7 +440,7 @@ h1 {
 #cirkel1 {
     transform: scale(0.02);
     position: absolute;
-    top: 39.6vw;
+    top: 610px;
     left: -31.5vw;
     z-index: 5;
     transition: 0.5s ease;
@@ -448,12 +448,14 @@ h1 {
 
 #cirkel1:hover {
     transform: scale(0.03);
+    cursor: pointer;
+
 }
 
 #cirkel2 {
     transform: scale(0.02);
     position: absolute;
-    top: 39.6vw;
+    top: 610px;
     left: -16.5vw;
     z-index: 5;
     transition: 0.5s ease;
@@ -461,13 +463,15 @@ h1 {
 
 #cirkel2:hover {
     transform: scale(0.03);
+    cursor: pointer;
+
 }
 
 #cirkel3 {
     transform: scale(0.02);
     position: absolute;
     margin: 0 auto;
-    top: 39.6vw;
+    top: 610px;
     left: -2vw;
     z-index: 5;
     transition: 0.5s ease;
@@ -475,12 +479,14 @@ h1 {
 
 #cirkel3:hover {
     transform: scale(0.03);
+    cursor: pointer;
+
 }
 
 #cirkel4 {
     transform: scale(0.02);
     position: absolute;
-    top: 39.6vw;
+    top: 610px;
     left: 13vw;
     z-index: 5;
     transition: 0.5s ease;
@@ -488,13 +494,15 @@ h1 {
 
 #cirkel4:hover {
     transform: scale(0.03);
+    cursor: pointer;
+
 }
 
 #cirkel5 {
     transform: scale(0.02);
     position: absolute;
     margin: 0 auto;
-    top: 39.6vw;
+    top: 610px;
     left: 27vw;
     z-index: 5;
     transition: 0.5s ease;
@@ -502,12 +510,13 @@ h1 {
 
 #cirkel5:hover {
     transform: scale(0.03);
+    cursor: pointer;
 }
 
 #cirkel6 {
     transform: scale(0.02);
     position: absolute;
-    top: 39.6vw;
+    top: 610px;
     left: 41vw;
     z-index: 5;
     transition: 0.5s ease;
@@ -515,6 +524,8 @@ h1 {
 
 #cirkel6:hover {
     transform: scale(0.03);
+    cursor: pointer;
+
 }
 
 /*****OM OS**************/

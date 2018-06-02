@@ -1,0 +1,32 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="129.53mm" height="72.98mm" viewBox="0 0 367.16 206.89">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #363347;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>taleboks</title>
+  <g>
+    <g>
+      <path class="cls-1" d="M167.58,209.4s1,16.57-29.16,20.71c0,0,34.37,7.25,53.12-20.71S167.58,209.4,167.58,209.4Z" transform="translate(-123.83 -97.62)"/>
+      <ellipse class="cls-1" cx="88.83" cy="63.02" rx="88.83" ry="63.02"/>
+    </g>
+    <circle class="cls-2" cx="65.96" cy="73.55" r="6.51"/>
+    <circle class="cls-2" cx="88.83" cy="73.55" r="6.51"/>
+    <circle class="cls-2" cx="111.84" cy="73.55" r="6.51"/>
+  </g>
+  <g>
+    <g>
+      <path class="cls-1" d="M447.24,283s-1,16.57,29.17,20.72c0,0-34.37,7.25-53.12-20.72S447.24,283,447.24,283Z" transform="translate(-123.83 -97.62)"/>
+      <ellipse class="cls-1" cx="278.34" cy="136.57" rx="88.83" ry="63.02"/>
+    </g>
+    <circle class="cls-2" cx="301.2" cy="147.1" r="6.51"/>
+    <circle class="cls-2" cx="278.34" cy="147.1" r="6.51"/>
+    <circle class="cls-2" cx="255.32" cy="147.1" r="6.51"/>
+  </g>
+</svg>

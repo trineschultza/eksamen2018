@@ -1,0 +1,33 @@
+<svg id="computer" xmlns="http://www.w3.org/2000/svg" width="59.03mm" height="49.39mm" viewBox="0 0 167.33 140">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #363347;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #585757;
+      }
+
+      .cls-4 {
+        fill: #404040;
+      }
+    </style>
+  </defs>
+  <title>desktop</title>
+  <g>
+    <g>
+      <path class="cls-1" d="M318.27,365.4v15.48a16.23,16.23,0,0,1-9.37,9.38c-7.34,2.85-5.3,4.07-5.3,4.07h25.62V365.4Z" transform="translate(-246.33 -254.33)"/>
+      <path class="cls-1" d="M340,365.4v15.48a16.19,16.19,0,0,0,9.37,9.38c7.34,2.85,5.3,4.07,5.3,4.07H329V365.4Z" transform="translate(-246.33 -254.33)"/>
+    </g>
+    <rect class="cls-1" width="167.33" height="116" rx="12" ry="12"/>
+    <path class="cls-2" d="M246.33,353.33H413.67v8.85s0,6.36-9.67,8.17H258.33s-12,1.14-12-8.17Z" transform="translate(-246.33 -254.33)"/>
+    <rect class="cls-3" x="9" y="10" width="149.67" height="83.33"/>
+    <polygon class="cls-4" points="73.33 10 154 93.33 158.67 93.33 158.67 10 73.33 10"/>
+    <circle class="cls-1" cx="82.92" cy="107.25" r="4.92"/>
+  </g>
+</svg>

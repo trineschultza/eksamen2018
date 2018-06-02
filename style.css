@@ -721,14 +721,15 @@ ul {
         grid-template-columns: repeat(2, 1fr);
 
     }
-    #produkterne .container a {}
     #produkter h1 {
         margin-top: 7vw;
         margin-bottom: 1vw;
     }
 
     #produkter {
-        width: 100%;
+        width: 88.2%;
+        display: block;
+        margin: 0 auto;
 
     }
 

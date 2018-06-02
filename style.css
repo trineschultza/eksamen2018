@@ -417,6 +417,106 @@ h1 {
     margin-bottom: 60px;
 }
 
+}
+
+#timelinecontainer {
+    position: relative;
+    background-color: none;
+    padding: 0;
+}
+
+#timelinecontainer img {
+    display: none;
+}
+
+#timeline {
+    position: relative;
+    padding: 10px;
+    background-color: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#cirkel1 {
+    transform: scale(0.02);
+    position: absolute;
+    top: 39.6vw;
+    left: -31.5vw;
+    z-index: 5;
+    transition: 0.5s ease;
+}
+
+#cirkel1:hover {
+    transform: scale(0.03);
+}
+
+#cirkel2 {
+    transform: scale(0.02);
+    position: absolute;
+    top: 39.6vw;
+    left: -16.5vw;
+    z-index: 5;
+    transition: 0.5s ease;
+}
+
+#cirkel2:hover {
+    transform: scale(0.03);
+}
+
+#cirkel3 {
+    transform: scale(0.02);
+    position: absolute;
+    margin: 0 auto;
+    top: 39.6vw;
+    left: -2vw;
+    z-index: 5;
+    transition: 0.5s ease;
+}
+
+#cirkel3:hover {
+    transform: scale(0.03);
+}
+
+#cirkel4 {
+    transform: scale(0.02);
+    position: absolute;
+    top: 39.6vw;
+    left: 13vw;
+    z-index: 5;
+    transition: 0.5s ease;
+}
+
+#cirkel4:hover {
+    transform: scale(0.03);
+}
+
+#cirkel5 {
+    transform: scale(0.02);
+    position: absolute;
+    margin: 0 auto;
+    top: 39.6vw;
+    left: 27vw;
+    z-index: 5;
+    transition: 0.5s ease;
+}
+
+#cirkel5:hover {
+    transform: scale(0.03);
+}
+
+#cirkel6 {
+    transform: scale(0.02);
+    position: absolute;
+    top: 39.6vw;
+    left: 41vw;
+    z-index: 5;
+    transition: 0.5s ease;
+}
+
+#cirkel6:hover {
+    transform: scale(0.03);
+}
+
 /*****OM OS**************/
 
 #omos img {
@@ -983,6 +1083,10 @@ ul {
         font-family: 'Josefin Slab', serif;
         font-size: 1.3em;
 
+    }
+
+    #timelinecontainer img {
+        display: block;
     }
 
     /*********** OM OS ***********/

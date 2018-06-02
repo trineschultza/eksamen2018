@@ -1,0 +1,35 @@
+<svg id="vaterpas" xmlns="http://www.w3.org/2000/svg" width="144.36mm" height="41.71mm" viewBox="0 0 409.21 118.24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #363347;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #bbb8d0;
+      }
+    </style>
+  </defs>
+  <title>vaterpas</title>
+  <g>
+    <rect x="354.76" y="89.86" width="117.5" height="409" transform="translate(-90.51 472.09) rotate(-89.9)"/>
+    <rect class="cls-1" x="354.76" y="124.84" width="117.5" height="339.04" transform="translate(-90.51 472.09) rotate(-89.9)"/>
+    <rect x="391.31" y="210.72" width="36.33" height="165.93" rx="6.75" ry="6.75" transform="translate(-93.85 467.38) rotate(-89.9)"/>
+    <circle cx="79.26" cy="58.22" r="18.16"/>
+    <circle cx="321.88" cy="58.66" r="18.16"/>
+    <circle class="cls-2" cx="79.49" cy="58" r="7.62"/>
+    <circle class="cls-2" cx="321.88" cy="58.66" r="7.62"/>
+    <polygon class="cls-2" points="179.03 65.8 179.06 50.78 222.11 50.86 222.08 66.1 179.03 65.8"/>
+    <path class="cls-2" d="M367.75,301l0-15-23.63-.27s-11.54,8.73,0,15.25Z" transform="translate(-208.9 -235.24)"/>
+    <path class="cls-3" d="M288.39,293.24l-7.63,0s0,5.83,7.61,7.64c0,0,6.28,0,7.64-7.61Z" transform="translate(-208.9 -235.24)"/>
+    <path class="cls-3" d="M530.56,293.68l-7.63,0s0,5.83,7.61,7.64c0,0,6.28,0,7.64-7.61Z" transform="translate(-208.9 -235.24)"/>
+    <path class="cls-3" d="M367.76,293.38l-28.69-.05s-1.53,4,5.05,7.63l23.63.05Z" transform="translate(-208.9 -235.24)"/>
+    <polygon class="cls-3" points="179.04 58.4 179.03 65.8 222.08 66.1 222.1 59.15 179.04 58.4"/>
+    <path class="cls-2" d="M448,301.15l0-15,23.62-.18s11.51,8.76,0,15.24Z" transform="translate(-208.9 -235.24)"/>
+    <path class="cls-3" d="M447.94,293.53l28.7.05s1.51,4-5.08,7.61l-23.63,0Z" transform="translate(-208.9 -235.24)"/>
+  </g>
+</svg>

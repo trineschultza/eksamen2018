@@ -1,0 +1,39 @@
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" width="143.93mm" height="24.22mm" viewBox="0 0 408 68.67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #363347;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>lineal</title>
+  <g>
+    <rect class="cls-1" x="304.33" y="132.33" width="68.67" height="408" transform="translate(540.33 -304.33) rotate(90)"/>
+    <line class="cls-2" x1="22" y1="49.33" x2="22" y2="68.67"/>
+    <line class="cls-2" x1="44" y1="49.33" x2="44" y2="68.67"/>
+    <line class="cls-2" x1="66" y1="49.33" x2="66" y2="68.67"/>
+    <line class="cls-2" x1="88" y1="49.33" x2="88" y2="68.67"/>
+    <line class="cls-2" x1="110" y1="39.17" x2="110" y2="68.67"/>
+    <line class="cls-2" x1="132" y1="49.33" x2="132" y2="68.67"/>
+    <line class="cls-2" x1="154" y1="49.33" x2="154" y2="68.67"/>
+    <line class="cls-2" x1="173.67" y1="49.33" x2="173.67" y2="68.67"/>
+    <line class="cls-2" x1="193.33" y1="49.33" x2="193.33" y2="68.67"/>
+    <line class="cls-2" x1="213" y1="39.17" x2="213" y2="68.67"/>
+    <line class="cls-2" x1="232.67" y1="49.33" x2="232.67" y2="68.67"/>
+    <line class="cls-2" x1="252.33" y1="49.33" x2="252.33" y2="68.67"/>
+    <line class="cls-2" x1="272" y1="49.33" x2="272" y2="68.67"/>
+    <line class="cls-2" x1="291.67" y1="49.33" x2="291.67" y2="68.67"/>
+    <line class="cls-2" x1="311.33" y1="39.17" x2="311.33" y2="68.67"/>
+    <line class="cls-2" x1="331" y1="49.33" x2="331" y2="68.67"/>
+    <line class="cls-2" x1="350.67" y1="49.33" x2="350.67" y2="68.67"/>
+    <line class="cls-2" x1="370.33" y1="49.33" x2="370.33" y2="68.67"/>
+    <line class="cls-2" x1="390" y1="49.33" x2="390" y2="68.67"/>
+  </g>
+</svg>

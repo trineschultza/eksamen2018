@@ -429,11 +429,11 @@ h1 {
 }
 
 #timelinecontainer {
+    display: none;
     position: relative;
     padding: 0;
     margin-top: 100px;
     margin-bottom: 150px;
-
 }
 
 #timelinecontainer img {
@@ -1103,6 +1103,11 @@ ul {
     #proces iframe {
         display: none;
     }
+
+    #timelinecontainer {
+        display: block;
+    }
+
     #timelinecontainer img {
         display: block;
     }

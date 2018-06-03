@@ -670,7 +670,9 @@ ul {
     #toplogoa:hover {
         background-color: rgba(145, 109, 39, 0);
     }
-
+    #toplogoa {
+        color: aliceblue;
+    }
     #scharlinglogo {
         width: 15%;
     }

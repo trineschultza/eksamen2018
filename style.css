@@ -1064,14 +1064,14 @@ ul {
     }
 
 
-    #kobgrid {
+    .kobgrid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin-left: 30px;
         margin-right: 30px;
     }
 
-    #kobgrid p {
+    .kobgrid p {
 
         margin-left: 30px;
         margin-right: 30px;
@@ -1081,7 +1081,7 @@ ul {
         margin-left: 34px;
     }
 
-    #kobgrid .omhandvark {
+    .kobgrid .omhandvark {
         margin-top: 33px;
         width: 87%;
     }
@@ -1091,7 +1091,7 @@ ul {
         margin-top: 30px;
     }
 
-    #kobgrid .vedligholdelse {
+    .kobgrid .vedligholdelse {
         margin-top: 31px;
         width: 86%;
 

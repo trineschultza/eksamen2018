@@ -76,10 +76,6 @@
             <a class="nav_omhandvark"> Om håndværket</a>
         </div>
 
-
-
-
-
         <div class="proces">
 
             <section id="proces">
@@ -97,74 +93,86 @@
 
                 <div id="timelinecontainer">
                     <img id="timeline" src="infographic/timeline.svg">
-                    <img id="cirkel1" src="infographic/cirkel.svg">
-                    <img id="cirkel2" src="infographic/cirkel.svg">
-                    <img id="cirkel3" src="infographic/cirkel.svg">
-                    <img id="cirkel4" src="infographic/cirkel.svg">
-                    <img id="cirkel5" src="infographic/cirkel.svg">
-                    <img id="cirkel6" src="infographic/cirkel.svg">
-                </div>
-            </section>
 
+                    <a href="#openModal1"> <img id="cirkel1" src="infographic/cirkel.svg"> </a>
 
-
-            <div id="border"> </div>
-
-
-            <section id="levering">
-                <h1 data-overskrift6></h1>
-
-                <div id="kobgrid">
-                    <img id="leveringimg" data-img6 src="" alt="data-img6">
-
-                    <div data-tekst6></div>
-                </div>
-            </section>
-            <div id="border"> </div>
-
-            <section id="vedligeholdelse">
-                <h1 data-overskrift7></h1>
-                <h1 data-overskrift8></h1>
-                <div id="kobgrid">
-                    <div data-tekst8></div>
-                    <img class="vedligholdelse" data-img11 src="" alt="data-img11">
-                </div>
-
-            </section>
-
-            <div id="border"> </div>
-
-
-            <section id="omhandvark">
-
-                <h1 data-overskrift11></h1>
-                <div id="kobgrid">
-                    <img class="omhandvark" data-img12 src="" alt="data-img12">
-
-                    <div data-tekst11></div>
-                </div>
-
-                <div id="kobgrid">
-                    <div id="traeviarbejdermed">
-                        <h1 data-overskrift12></h1>
-                        <div data-tekst12></div>
+                    <div id="openModal1" class="modalDialog1">
+                        <div>
+                            <a href="#close" title="Close" class="close">X</a>
+                            <img src="infographic/step1.svg" alt="step1">
+                        </div>
                     </div>
 
-                    <div id="traeviarbejdermed">
 
-                        <h1 data-overskrift13></h1>
-                        <div data-tekst13></div>
+                    <a href="#openModal2"> <img class="cirkel2" src="infographic/cirkel.svg"> </a>
 
-                    </div>
-                </div>
 
-                <div id="kobhosslut">
-                    <img data-img10 src="" alt="data-img10">
-
+                    <a href="#openModal3"> <img class="cirkel3"src="infographic/cirkel.svg"> </a>
+                    <a href="#openModal4"> <img class="cirkel4"src="infographic/cirkel.svg"> </a>
+                    <a href="#openModal5"> <img class="cirkel5"src="infographic/cirkel.svg"> </a>
+                    <a href="#openModal6"> <img class="cirkel6"src="infographic/cirkel.svg"> </a>
                 </div>
             </section>
+
 
         </div>
+
+        <div id="border"> </div>
+
+
+        <section id="levering">
+            <h1 data-overskrift6></h1>
+
+            <div id="kobgrid">
+                <img id="leveringimg" data-img6 src="" alt="data-img6">
+
+                <div data-tekst6></div>
+            </div>
+        </section>
+        <div id="border"> </div>
+
+        <section id="vedligeholdelse">
+            <h1 data-overskrift7></h1>
+            <h1 data-overskrift8></h1>
+            <div id="kobgrid">
+                <div data-tekst8></div>
+                <img class="vedligholdelse" data-img11 src="" alt="data-img11">
+            </div>
+
+        </section>
+
+        <div id="border"> </div>
+
+
+        <section id="omhandvark">
+
+            <h1 data-overskrift11></h1>
+            <div id="kobgrid">
+                <img class="omhandvark" data-img12 src="" alt="data-img12">
+
+                <div data-tekst11></div>
+            </div>
+
+            <div id="kobgrid">
+                <div id="traeviarbejdermed">
+                    <h1 data-overskrift12></h1>
+                    <div data-tekst12></div>
+                </div>
+
+                <div id="traeviarbejdermed">
+
+                    <h1 data-overskrift13></h1>
+                    <div data-tekst13></div>
+
+                </div>
+            </div>
+
+            <div id="kobhosslut">
+                <img data-img10 src="" alt="data-img10">
+
+            </div>
+        </section>
+
     </div>
     <div class="up"> <img src="img/up.svg" alt="up"> </div>
 
@@ -204,7 +212,28 @@
         <p> © Scharling Woodwork 2014</p>
     </footer>
 
+    <script>
+        var modal = document.getElementById('myModal');
+        var btn = document.getElementById("myBtn1");
+        var span = document.getElementsByClassName("close")[0];
 
+        /*btn.onclick = function() {
+            modal.style.display = "block";
+
+        }
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+
+        }*/
+    </script>
+
+    <!--<script src="modal.js"></script>-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js "></script>
 
     <script src="kobhosscharling.js"></script>

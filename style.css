@@ -417,11 +417,8 @@ h1 {
     margin-bottom: 60px;
 }
 
-}
-
 #timelinecontainer {
     position: relative;
-    background-color: none;
     padding: 0;
 }
 
@@ -432,37 +429,36 @@ h1 {
 #timeline {
     position: relative;
     padding: 10px;
-    background-color: none;
     padding: 0;
     margin: 0 auto;
 }
 
-#cirkel1 {
-    transform: scale(0.02);
+#timelinecontainer #cirkel1 {
+    width: 1.3%;
     position: absolute;
-    top: 610px;
-    left: -31.5vw;
+    top: 91px;
+    left: 150px;
     z-index: 5;
     transition: 0.5s ease;
 }
 
 #cirkel1:hover {
-    transform: scale(0.03);
+    transform: scale(1.3);
     cursor: pointer;
 
 }
 
 #cirkel2 {
-    transform: scale(0.02);
+    width: 1.3%;
     position: absolute;
-    top: 610px;
-    left: -16.5vw;
+    top: 91px;
+    left: 250px;
     z-index: 5;
     transition: 0.5s ease;
 }
 
 #cirkel2:hover {
-    transform: scale(0.03);
+    transform: scale(1.3);
     cursor: pointer;
 
 }
@@ -471,7 +467,7 @@ h1 {
     transform: scale(0.02);
     position: absolute;
     margin: 0 auto;
-    top: 610px;
+    top: 606px;
     left: -2vw;
     z-index: 5;
     transition: 0.5s ease;
@@ -486,7 +482,7 @@ h1 {
 #cirkel4 {
     transform: scale(0.02);
     position: absolute;
-    top: 610px;
+    top: 606px;
     left: 13vw;
     z-index: 5;
     transition: 0.5s ease;
@@ -502,7 +498,7 @@ h1 {
     transform: scale(0.02);
     position: absolute;
     margin: 0 auto;
-    top: 610px;
+    top: 606px;
     left: 27vw;
     z-index: 5;
     transition: 0.5s ease;
@@ -516,7 +512,7 @@ h1 {
 #cirkel6 {
     transform: scale(0.02);
     position: absolute;
-    top: 610px;
+    top: 606px;
     left: 41vw;
     z-index: 5;
     transition: 0.5s ease;
@@ -1253,6 +1249,205 @@ ul {
     #splash {
         display: none;
     }
+
+
+    #timelinecontainer .cirkel1 {
+        width: 1.3%;
+        position: absolute;
+        top: 1175px;
+        left: 150px;
+        transition: all 0.2s ease;
+
+    }
+    #timelinecontainer .cirkel1:hover {
+        transform: scale(1.4);
+    }
+
+    #timelinecontainer .cirkel2 {
+        width: 1.3%;
+        position: absolute;
+        top: 1175px;
+        left: 350px;
+        transition: all 0.2s ease;
+
+    }
+    #timelinecontainer .cirkel2:hover {
+        transform: scale(1.4);
+    }
+
+
+    #timelinecontainer .cirkel3 {
+        width: 1.3%;
+        position: absolute;
+        top: 1175px;
+        left: 540px;
+        transition: all 0.2s ease;
+    }
+    #timelinecontainer .cirkel3:hover {
+        transform: scale(1.4);
+    }
+
+
+
+    #timelinecontainer .cirkel4 {
+        width: 1.3%;
+        position: absolute;
+        top: 1175px;
+        left: 730px;
+        transition: all 0.2s ease;
+
+    }
+    #timelinecontainer .cirkel4:hover {
+        transform: scale(1.4);
+    }
+
+
+    #timelinecontainer .cirkel5 {
+        width: 1.3%;
+        position: absolute;
+        top: 1175px;
+        left: 910px;
+        transition: all 0.2s ease;
+
+    }
+    #timelinecontainer .cirkel5:hover {
+        transform: scale(1.4);
+    }
+
+
+    #timelinecontainer .cirkel6 {
+        width: 1.3%;
+        position: absolute;
+        top: 1175px;
+        left: 1100px;
+        transition: all 0.2s ease;
+
+    }
+    #timelinecontainer .cirkel6:hover {
+        transform: scale(1.4);
+    }
+
+}
+
+/******OPENMODAL1*********/
+
+.modalDialog {
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0);
+    top: 87px;
+    left: 30px;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+
+
+.modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.modalDialog > div {
+    width: 250px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0);
+
+}
+
+
+
+.close {
+    background: #3f434d;
+    font-family: 'raleway', sans-serif;
+    color: #FFFFFF;
+    line-height: 15px;
+    position: absolute;
+    right: 37px;
+    text-align: center;
+    top: 28px;
+    width: 15px;
+    height: 15px;
+    font-size: 0.5em;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+
+}
+
+.close:hover {
+    background: #00d9ff;
+}
+
+
+/******OPEN MODAL2********/
+
+.modalDialog2 {
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0);
+    top: 87px;
+    left: 30px;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+
+
+.modalDialog2:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.modalDialog2 > div {
+    width: 250px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0);
+
+}
+
+
+
+.close2 {
+    background: #3f434d;
+    font-family: 'raleway', sans-serif;
+    color: #FFFFFF;
+    line-height: 15px;
+    position: absolute;
+    right: 37px;
+    text-align: center;
+    top: 28px;
+    width: 15px;
+    height: 15px;
+    font-size: 0.5em;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+
+}
+
+.close2:hover {
+    background: #00d9ff;
+}
+
+
+
 }
 
 

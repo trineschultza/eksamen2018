@@ -1,4 +1,4 @@
-<svg id="Step_1" data-name="Step 1" xmlns="http://www.w3.org/2000/svg" width="560" height="424.66" viewBox="0 0 560 424.66">
+<svg id="Step_1" data-name="Step 1" xmlns="http://www.w3.org/2000/svg" width="584" height="495.91" viewBox="0 0 584 495.91">
   <defs>
     <style>
       .cls-1 {
@@ -78,12 +78,34 @@
       .cls-19 {
         letter-spacing: -0.01em;
       }
+
+      .cls-20 {
+        fill: #41444e;
+      }
+
+      .cls-21 {
+        fill: #fff;
+      }
     </style>
   </defs>
   <title>step1</title>
+  <polygon class="cls-1" points="296 0 266.38 58.51 201.39 67.28 247.89 113.53 236.15 178.05 294.5 148.13 352.24 179.23 341.8 114.48 389.23 69.19 324.43 59.1 296 0"/>
+  <rect class="cls-1" y="54.75" width="584" height="441.16" rx="12" ry="12"/>
+  <text class="cls-2" transform="translate(57 120.65)"><tspan class="cls-3"><tspan xml:space="preserve">                  Dialog</tspan></tspan><tspan class="cls-4"><tspan x="0" y="43.2"></tspan><tspan x="0" y="86.4">Vi tage</tspan><tspan class="cls-5" x="116.53" y="86.4">r</tspan><tspan x="128.3" y="86.4" xml:space="preserve"> indledende en dialog </tspan><tspan x="0" y="129.6">om je</tspan><tspan class="cls-6" x="92.91" y="129.6">r</tspan><tspan x="104.61" y="129.6">es øns</tspan><tspan class="cls-7" x="212.4" y="129.6">k</tspan><tspan x="230.51" y="129.6">e</tspan><tspan class="cls-5" x="251.64" y="129.6">r</tspan><tspan x="263.41" y="129.6"> </tspan><tspan class="cls-6" x="272.59" y="129.6">f</tspan><tspan x="283.53" y="129.6">o</tspan><tspan class="cls-5" x="304.95" y="129.6">r</tspan><tspan x="316.73" y="129.6" xml:space="preserve"> d</tspan><tspan class="cls-8" x="348.3" y="129.6">e</tspan><tspan x="369.29" y="129.6">t </tspan><tspan class="cls-7" x="390.52" y="129.6">k</tspan><tspan x="408.63" y="129.6">om</tspan><tspan x="463.14" y="129.6">-</tspan><tspan x="0" y="172.8">mende sned</tspan><tspan class="cls-7" x="209.95" y="172.8">k</tspan><tspan x="228.06" y="172.8">e</tspan><tspan class="cls-9" x="249.19" y="172.8">r</tspan><tspan x="260.28" y="172.8">- </tspan><tspan class="cls-7" x="284.65" y="172.8">k</tspan><tspan x="302.76" y="172.8">øk</tspan><tspan class="cls-7" x="343.26" y="172.8">k</tspan><tspan x="361.37" y="172.8">en.</tspan><tspan class="cls-10" x="410.29" y="172.8"> </tspan><tspan x="418.25" y="172.8">Vi </tspan><tspan class="cls-11" x="0" y="216">v</tspan><tspan x="18.54" y="216">ende</tspan><tspan class="cls-12" x="104.18" y="216">r</tspan><tspan x="115.96" y="216" xml:space="preserve"> g</tspan><tspan class="cls-6" x="147.38" y="216">r</tspan><tspan class="cls-13" x="159.08" y="216">o</tspan><tspan x="179.82" y="216">vmål, m</tspan><tspan class="cls-14" x="311.86" y="216">a</tspan><tspan class="cls-15" x="331.34" y="216">t</tspan><tspan x="342.93" y="216">eriale</tspan><tspan class="cls-16" x="435.09" y="216">r</tspan><tspan x="446.07" y="216">, </tspan><tspan x="0" y="259.2">udseende o</tspan><tspan class="cls-17" x="198.68" y="259.2">s</tspan><tspan class="cls-18" x="215.85" y="259.2">v</tspan><tspan x="233.35" y="259.2">. I</tspan><tspan class="cls-7" x="258.26" y="259.2"> </tspan><tspan class="cls-11" x="266.47" y="259.2">v</tspan><tspan x="285.01" y="259.2">o</tspan><tspan class="cls-6" x="306.43" y="259.2">r</tspan><tspan x="318.13" y="259.2">es sh</tspan><tspan class="cls-13" x="404.49" y="259.2">o</tspan><tspan x="425.23" y="259.2">w</tspan><tspan x="454.5" y="259.2">-</tspan><tspan class="cls-6" x="0" y="302.4">r</tspan><tspan x="11.7" y="302.4">oom </tspan><tspan class="cls-19" x="96.8" y="302.4">k</tspan><tspan x="115.63" y="302.4">an I se og mær</tspan><tspan class="cls-7" x="363.49" y="302.4">k</tspan><tspan x="381.6" y="302.4" xml:space="preserve">e     </tspan><tspan class="cls-6" x="0" y="345.6">f</tspan><tspan x="10.94" y="345.6">ors</tspan><tspan class="cls-7" x="62.53" y="345.6">k</tspan><tspan x="80.64" y="345.6">ellige mulighede</tspan><tspan class="cls-16" x="361.76" y="345.6">r</tspan><tspan x="372.74" y="345.6">. </tspan></tspan></text>
   <g>
-    <polygon class="cls-1" points="281 0 251.38 58.51 186.39 67.28 232.89 113.53 221.15 178.05 279.5 148.13 337.24 179.23 326.8 114.48 374.23 69.19 309.43 59.1 281 0"/>
-    <rect class="cls-1" y="54.75" width="560" height="369.91" rx="12" ry="12"/>
+    <g>
+      <path class="cls-20" d="M589.11,286.31s.36,5.78-10.19,7.23c0,0,12,2.53,18.55-7.23S589.11,286.31,589.11,286.31Z" transform="translate(-217 -171.09)"/>
+      <ellipse class="cls-20" cx="387.84" cy="98.2" rx="31.01" ry="22"/>
+    </g>
+    <circle class="cls-21" cx="379.86" cy="101.88" r="2.27"/>
+    <circle class="cls-21" cx="387.84" cy="101.88" r="2.27"/>
+    <circle class="cls-21" cx="395.88" cy="101.88" r="2.27"/>
+    <g>
+      <path class="cls-20" d="M686.73,312s-.37,5.79,10.18,7.24c0,0-12,2.53-18.55-7.24S686.73,312,686.73,312Z" transform="translate(-217 -171.09)"/>
+      <ellipse class="cls-20" cx="453.99" cy="123.87" rx="31.01" ry="22"/>
+    </g>
+    <circle class="cls-21" cx="461.98" cy="127.55" r="2.27"/>
+    <circle class="cls-21" cx="453.99" cy="127.55" r="2.27"/>
+    <circle class="cls-21" cx="445.96" cy="127.55" r="2.27"/>
   </g>
-  <text class="cls-2" transform="translate(42 105.65)"><tspan class="cls-3"><tspan xml:space="preserve">                  Dialog</tspan></tspan><tspan class="cls-4"><tspan x="0" y="43.2">Vi tage</tspan><tspan class="cls-5" x="116.53" y="43.2">r</tspan><tspan x="128.3" y="43.2" xml:space="preserve"> indledende en dialog </tspan><tspan x="0" y="86.4">om je</tspan><tspan class="cls-6" x="92.91" y="86.4">r</tspan><tspan x="104.61" y="86.4">es øns</tspan><tspan class="cls-7" x="212.4" y="86.4">k</tspan><tspan x="230.51" y="86.4">e</tspan><tspan class="cls-5" x="251.64" y="86.4">r</tspan><tspan x="263.41" y="86.4"> </tspan><tspan class="cls-6" x="272.59" y="86.4">f</tspan><tspan x="283.53" y="86.4">o</tspan><tspan class="cls-5" x="304.95" y="86.4">r</tspan><tspan x="316.73" y="86.4" xml:space="preserve"> d</tspan><tspan class="cls-8" x="348.3" y="86.4">e</tspan><tspan x="369.29" y="86.4">t </tspan><tspan class="cls-7" x="390.52" y="86.4">k</tspan><tspan x="408.63" y="86.4">om</tspan><tspan x="463.14" y="86.4">-</tspan><tspan x="0" y="129.6">mende sned</tspan><tspan class="cls-7" x="209.95" y="129.6">k</tspan><tspan x="228.06" y="129.6">e</tspan><tspan class="cls-9" x="249.19" y="129.6">r</tspan><tspan x="260.28" y="129.6">- </tspan><tspan class="cls-7" x="284.65" y="129.6">k</tspan><tspan x="302.76" y="129.6">øk</tspan><tspan class="cls-7" x="343.26" y="129.6">k</tspan><tspan x="361.37" y="129.6">en.</tspan><tspan class="cls-10" x="410.29" y="129.6"> </tspan><tspan x="418.25" y="129.6">Vi </tspan><tspan class="cls-11" x="0" y="172.8">v</tspan><tspan x="18.54" y="172.8">ende</tspan><tspan class="cls-12" x="104.18" y="172.8">r</tspan><tspan x="115.96" y="172.8" xml:space="preserve"> g</tspan><tspan class="cls-6" x="147.38" y="172.8">r</tspan><tspan class="cls-13" x="159.08" y="172.8">o</tspan><tspan x="179.82" y="172.8">vmål, m</tspan><tspan class="cls-14" x="311.86" y="172.8">a</tspan><tspan class="cls-15" x="331.34" y="172.8">t</tspan><tspan x="342.93" y="172.8">eriale</tspan><tspan class="cls-16" x="435.09" y="172.8">r</tspan><tspan x="446.07" y="172.8">, </tspan><tspan x="0" y="216">udseende o</tspan><tspan class="cls-17" x="198.68" y="216">s</tspan><tspan class="cls-18" x="215.85" y="216">v</tspan><tspan x="233.35" y="216">. I</tspan><tspan class="cls-7" x="258.26" y="216"> </tspan><tspan class="cls-11" x="266.47" y="216">v</tspan><tspan x="285.01" y="216">o</tspan><tspan class="cls-6" x="306.43" y="216">r</tspan><tspan x="318.13" y="216">es sh</tspan><tspan class="cls-13" x="404.49" y="216">o</tspan><tspan x="425.23" y="216">w</tspan><tspan x="454.5" y="216">-</tspan><tspan class="cls-6" x="0" y="259.2">r</tspan><tspan x="11.7" y="259.2">oom </tspan><tspan class="cls-19" x="96.8" y="259.2">k</tspan><tspan x="115.63" y="259.2">an I se og mær</tspan><tspan class="cls-7" x="363.49" y="259.2">k</tspan><tspan x="381.6" y="259.2" xml:space="preserve">e     </tspan><tspan class="cls-6" x="0" y="302.4">f</tspan><tspan x="10.94" y="302.4">ors</tspan><tspan class="cls-7" x="62.53" y="302.4">k</tspan><tspan x="80.64" y="302.4">ellige mulighede</tspan><tspan class="cls-16" x="361.76" y="302.4">r</tspan><tspan x="372.74" y="302.4">. </tspan></tspan></text>
 </svg>

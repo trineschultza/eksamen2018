@@ -437,7 +437,7 @@ h1 {
     width: 1.3%;
     position: absolute;
     top: 91px;
-    left: 150px;
+    left: 200px;
     z-index: 5;
     transition: 0.5s ease;
 }
@@ -445,14 +445,13 @@ h1 {
 #cirkel1:hover {
     transform: scale(1.3);
     cursor: pointer;
-
 }
 
 #timelinecontainer #cirkel2 {
     width: 1.3%;
     position: absolute;
     top: 91px;
-    left: 150px;
+    left: 470px;
     z-index: 5;
     transition: 0.5s ease;
 }
@@ -463,65 +462,60 @@ h1 {
 
 }
 
-#cirkel3 {
-    transform: scale(0.02);
+#timelinecontainer #cirkel3 {
+    width: 1.3%;
     position: absolute;
-    margin: 0 auto;
-    top: 606px;
-    left: -2vw;
+    top: 91px;
+    left: 715px;
     z-index: 5;
     transition: 0.5s ease;
 }
 
 #cirkel3:hover {
-    transform: scale(0.03);
+    transform: scale(1.3);
     cursor: pointer;
-
 }
 
-#cirkel4 {
-    transform: scale(0.02);
+#timelinecontainer #cirkel4 {
+    width: 1.3%;
     position: absolute;
-    top: 606px;
-    left: 13vw;
+    top: 91px;
+    left: 966px;
     z-index: 5;
     transition: 0.5s ease;
 }
 
 #cirkel4:hover {
-    transform: scale(0.03);
+    transform: scale(1.3);
     cursor: pointer;
-
 }
 
-#cirkel5 {
-    transform: scale(0.02);
+#timelinecontainer #cirkel5 {
+    width: 1.3%;
     position: absolute;
-    margin: 0 auto;
-    top: 606px;
-    left: 27vw;
+    top: 91px;
+    left: 1205px;
     z-index: 5;
     transition: 0.5s ease;
 }
 
 #cirkel5:hover {
-    transform: scale(0.03);
+    transform: scale(1.3);
     cursor: pointer;
 }
 
-#cirkel6 {
-    transform: scale(0.02);
+#timelinecontainer #cirkel6 {
+    width: 1.3%;
     position: absolute;
-    top: 606px;
-    left: 41vw;
+    top: 91px;
+    left: 1446px;
     z-index: 5;
     transition: 0.5s ease;
 }
 
 #cirkel6:hover {
-    transform: scale(0.03);
+    transform: scale(1.3);
     cursor: pointer;
-
 }
 
 /*****OM OS**************/
@@ -1266,7 +1260,7 @@ ul {
     #timelinecontainer .cirkel2 {
         width: 1.3%;
         position: absolute;
-        top: 90px;
+        top: 91px;
         left: 470px;
         transition: all 0.2s ease;
 
@@ -1280,20 +1274,19 @@ ul {
         width: 1.3%;
         position: absolute;
         top: 1175px;
-        left: 540px;
+        left: 150px;
         transition: all 0.2s ease;
+
     }
     #timelinecontainer .cirkel3:hover {
         transform: scale(1.4);
     }
 
-
-
     #timelinecontainer .cirkel4 {
         width: 1.3%;
         position: absolute;
         top: 1175px;
-        left: 730px;
+        left: 150px;
         transition: all 0.2s ease;
 
     }
@@ -1306,7 +1299,7 @@ ul {
         width: 1.3%;
         position: absolute;
         top: 1175px;
-        left: 910px;
+        left: 150px;
         transition: all 0.2s ease;
 
     }
@@ -1319,7 +1312,7 @@ ul {
         width: 1.3%;
         position: absolute;
         top: 1175px;
-        left: 1100px;
+        left: 150px;
         transition: all 0.2s ease;
 
     }
@@ -1329,17 +1322,14 @@ ul {
 
 }
 
+
 /******OPENMODAL1*********/
 
 .modalDialog {
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 99999;
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0);
+    top: 82px;
+    left: 50px;
     opacity: 0;
     -webkit-transition: opacity 400ms ease-in;
     -moz-transition: opacity 400ms ease-in;
@@ -1352,35 +1342,34 @@ ul {
     pointer-events: auto;
 }
 
+
 .modalDialog > div {
-    width: 400px;
+    width: 320px;
     position: relative;
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
-    background: #fff;
-    background: -moz-linear-gradient(#fff, #999);
-    background: -webkit-linear-gradient(#fff, #999);
-    background: -o-linear-gradient(#fff, #999);
+    background-color: rgba(240, 248, 255, 0);
+
 }
 
 .close {
-    background: #606061;
+    background: #3f434d;
+    font-family: 'raleway', sans-serif;
     color: #FFFFFF;
-    line-height: 25px;
+    line-height: 15px;
     position: absolute;
-    right: -12px;
+    right: 37px;
     text-align: center;
-    top: -10px;
-    width: 24px;
+    top: 32px;
+    width: 15px;
+    height: 15px;
+    font-size: 0.5em;
     text-decoration: none;
     font-weight: bold;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     border-radius: 12px;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
-    box-shadow: 1px 1px 3px #000;
 }
 
 .close:hover {
@@ -1393,8 +1382,8 @@ ul {
 .modalDialog2 {
     position: absolute;
     background-color: rgba(240, 248, 255, 0);
-    top: 87px;
-    left: 30px;
+    top: -147px;
+    left: 322px;
     opacity: 0;
     -webkit-transition: opacity 400ms ease-in;
     -moz-transition: opacity 400ms ease-in;
@@ -1411,7 +1400,7 @@ ul {
 
 
 .modalDialog2 > div {
-    width: 250px;
+    width: 320px;
     position: relative;
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
@@ -1426,9 +1415,9 @@ ul {
     color: #FFFFFF;
     line-height: 15px;
     position: absolute;
-    right: 37px;
+    right: 38px;
     text-align: center;
-    top: 28px;
+    top: 10px;
     width: 15px;
     height: 15px;
     font-size: 0.5em;
@@ -1442,5 +1431,223 @@ ul {
 .close2:hover {
     background: #00d9ff;
 }
+
+/******OPEN MODAL3********/
+
+.modalDialog3 {
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0);
+    top: 82px;
+    left: 565px;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog3:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.modalDialog3 > div {
+    width: 320px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0);
+
+}
+
+.close3 {
+    background: #3f434d;
+    font-family: 'raleway', sans-serif;
+    color: #FFFFFF;
+    line-height: 15px;
+    position: absolute;
+    right: 37px;
+    text-align: center;
+    top: 33px;
+    width: 15px;
+    height: 15px;
+    font-size: 0.5em;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+}
+
+.close3:hover {
+    background: #00d9ff;
+}
+
+/******OPEN MODAL4********/
+
+.modalDialog4 {
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0);
+    top: -165px;
+    left: 817.5px;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+
+
+.modalDialog4:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.modalDialog4 > div {
+    width: 320px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0);
+
+}
+
+.close4 {
+    background: #3f434d;
+    font-family: 'raleway', sans-serif;
+    color: #FFFFFF;
+    line-height: 15px;
+    position: absolute;
+    right: 37px;
+    text-align: center;
+    top: 7px;
+    width: 15px;
+    height: 15px;
+    font-size: 0.5em;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+}
+
+.close4:hover {
+    background: #00d9ff;
+}
+
+/******OPEN MODAL5********/
+
+.modalDialog5 {
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0);
+    top: 82px;
+    left: 1055px;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog5:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.modalDialog5 > div {
+    width: 320px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0);
+
+}
+
+.close5 {
+    background: #3f434d;
+    font-family: 'raleway', sans-serif;
+    color: #FFFFFF;
+    line-height: 15px;
+    position: absolute;
+    right: 37px;
+    text-align: center;
+    top: 32px;
+    width: 15px;
+    height: 15px;
+    font-size: 0.5em;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+}
+
+.close5:hover {
+    background: #00d9ff;
+}
+
+/******OPEN MODAL6********/
+
+.modalDialog6 {
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0);
+    top: -140px;
+    left: 1297px;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+
+
+.modalDialog6:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.modalDialog6 > div {
+    width: 320px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0);
+
+}
+
+.close6 {
+    background: #3f434d;
+    font-family: 'raleway', sans-serif;
+    color: #FFFFFF;
+    line-height: 15px;
+    position: absolute;
+    right: 37px;
+    text-align: center;
+    top: 7px;
+    width: 15px;
+    height: 15px;
+    font-size: 0.5em;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+}
+
+.close6:hover {
+    background: #00d9ff;
+}
+
+
 
 /* MEDIAQUERIES SLUT */

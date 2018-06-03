@@ -643,14 +643,14 @@ ul {
 
     .some_splash .instagram {
         position: absolute;
-        left: 2vw;
+        left: 6vw;
         top: 100px;
     }
 
     .some_splash .facebook {
         position: absolute;
         top: 100px;
-        left: 6vw;
+        left: 2vw;
     }
 
     #toplogo {

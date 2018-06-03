@@ -11,7 +11,7 @@ body {
 }
 
 
-#border {
+.border {
     width: 89%;
     margin: 0 auto;
     border-bottom: solid rgba(63, 67, 77, 0.31) 2px;
@@ -356,7 +356,7 @@ h1 {
     margin-top: 0px;
 }
 
-#badgrid {
+.badgrid {
     padding: 30px;
 }
 
@@ -765,8 +765,6 @@ ul {
         color: #efc020;
     }
 
-
-
     .produkter-dropbtn {
         background-color: rgba(255, 255, 255, 0);
         font-family: 'raleway', sans-serif;
@@ -867,12 +865,11 @@ ul {
 
     #snedker img {
         width: 87%;
-        margin-top: 0px;
+        margin-top: 31px;
 
     }
-    #snedker .com {
-        margin-top: 31px;
-    }
+
+
     #snedker p {
         margin-right: 30px;
         margin-left: 30px;
@@ -896,13 +893,14 @@ ul {
         padding: 15px;
 
     }
+
     #lillemenu a:hover {
         cursor: pointer;
         color: #ded9d9;
     }
 
 
-    #snedkerflex {
+    .snedkerflex {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
@@ -921,7 +919,7 @@ ul {
         grid-gap: 10px
     }
 
-    .nykokken #imgkok {
+    .nykokken #imgkok2 {
         width: 87%;
         margin-top: 32px;
     }
@@ -939,29 +937,32 @@ ul {
         width: 100%;
         margin-bottom: 30px;
     }
+
     /*****BADeVÆRELSE********/
     #badevarlse img {
         width: 85%;
-        margin-top: 0px;
+        margin-top: 31px;
 
     }
+
     #badevarlse #banner {
         width: 100%;
     }
+
     #badevarlse p {
         margin-left: 30px;
         margin-right: 30px;
     }
 
 
-    #badgrid {
+    .badgrid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
 
     }
 
-    #badgrid img {
+    .badgrid img {
         margin-top: 20px;
     }
 
@@ -970,32 +971,26 @@ ul {
     .banner #banner {
         width: 100%;
     }
+
     #planke img {
         width: 80%;
-        margin-top: 0px;
-    }
-    #plankegrid .plankeintro {
-        width: 85%;
+        margin-top: 31px;
     }
 
+
     #planke,
-    #plankegrid p {
+    .plankegrid p {
         margin-left: 30px;
         margin-right: 30px;
     }
 
 
-    #plankegrid {
+    .plankegrid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
     }
-    #plankegrid .plankeintro,
-    #plankegrid .plankeimg,
-    #plankegrid .plankeimg2,
-    #plankegrid .plankeimg3 {
-        margin-top: 31px;
-    }
+
 
     #plankegrid .plankeimg3 {
         width: 87%;
@@ -1004,6 +999,7 @@ ul {
     #plankegrid .plankeimg2 {
         width: 85%;
     }
+
     #plankegrid img {
         width: 87%;
     }
@@ -1012,14 +1008,16 @@ ul {
 
 
     /******** DIN SNEDKER*****/
-    #dinsnedker img {
+    #snedker img {
         width: 100%;
-        margin-top: 0px;
+        margin-top: 31px;
 
     }
+
     .snedker img {
         width: 100%;
     }
+
     .banner #banner {
         width: 100%;
     }
@@ -1051,6 +1049,7 @@ ul {
     #kob #leveringimg {
         width: 80%;
     }
+
     .proces iframe {
         display: block;
         margin: 0 auto;
@@ -1059,6 +1058,7 @@ ul {
         width: 86%;
 
     }
+
     .proces iframe {
         border: 0;
     }
@@ -1070,6 +1070,7 @@ ul {
         margin-left: 30px;
         margin-right: 30px;
     }
+
     #kobgrid p {
 
         margin-left: 30px;
@@ -1079,19 +1080,23 @@ ul {
     #levering p {
         margin-left: 34px;
     }
+
     #kobgrid .omhandvark {
         margin-top: 33px;
         width: 87%;
     }
+
     #kobhosslut img {
         width: 100%;
         margin-top: 30px;
     }
+
     #kobgrid .vedligholdelse {
         margin-top: 31px;
         width: 86%;
 
     }
+
     #kobhosslut .citat p {
         margin-left: 1vw;
         margin-right: 1vw;
@@ -1116,10 +1121,12 @@ ul {
     #omos #banner {
         width: 100%;
     }
+
     .omosgrid {
         margin-left: 30px;
         margin-right: 30px;
     }
+
     #omos img {
         width: 80%;
         display: block;
@@ -1130,6 +1137,7 @@ ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
     #omos .madogjonas {
         width: 100%;
     }
@@ -1139,10 +1147,12 @@ ul {
         grid-template-columns: repeat(2, 1fr);
         margin-top: 50px;
     }
+
     #medarbejder {
         margin-left: 30px;
         margin-right: 30px;
     }
+
     #medarbejder img {
         width: 85%;
         display: block;
@@ -1162,6 +1172,7 @@ ul {
         height: 22.5vw;
 
     }
+
     /******KONTAKT*********/
     #kontaktinfo #banner {
         width: 100%;
@@ -1173,15 +1184,18 @@ ul {
         display: flex;
 
     }
+
     #introkontakt {
         margin-left: 60px;
         margin-right: 30px;
     }
+
     #varksted p,
     #varksted {
         margin-left: 30px;
         margin-right: 30px;
     }
+
     #koninf {
         flex-grow: 1;
         width: 10%;
@@ -1198,6 +1212,7 @@ ul {
         margin-top: 30px;
 
     }
+
     #adresse {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1210,6 +1225,7 @@ ul {
         margin-left: 20px;
 
     }
+
     #varksted {
         flex-grow: 1;
     }
@@ -1230,6 +1246,7 @@ ul {
         text-align: center;
         background-color: rgba(133, 150, 165, 0.5);
     }
+
     footer img {
         padding: 20px;
     }
@@ -1244,6 +1261,7 @@ ul {
         text-decoration: none;
         margin-top: 30px;
     }
+
     #footerinfo {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -1275,6 +1293,7 @@ ul {
         transition: all 0.2s ease;
 
     }
+
     #timelinecontainer .cirkel1:hover {
         transform: scale(1.4);
     }
@@ -1287,6 +1306,7 @@ ul {
         transition: all 0.2s ease;
 
     }
+
     #timelinecontainer .cirkel2:hover {
         transform: scale(1.4);
     }
@@ -1300,6 +1320,7 @@ ul {
         transition: all 0.2s ease;
 
     }
+
     #timelinecontainer .cirkel3:hover {
         transform: scale(1.4);
     }
@@ -1312,6 +1333,7 @@ ul {
         transition: all 0.2s ease;
 
     }
+
     #timelinecontainer .cirkel4:hover {
         transform: scale(1.4);
     }
@@ -1325,6 +1347,7 @@ ul {
         transition: all 0.2s ease;
 
     }
+
     #timelinecontainer .cirkel5:hover {
         transform: scale(1.4);
     }
@@ -1338,6 +1361,7 @@ ul {
         transition: all 0.2s ease;
 
     }
+
     #timelinecontainer .cirkel6:hover {
         transform: scale(1.4);
     }
